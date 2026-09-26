@@ -1,0 +1,32 @@
+{
+  "model": "granite-3.3-8b-instruct",
+  "block": 12,
+  "D": 4096,
+  "K": 10,
+  "haar_pct": 0.244140625,
+  "refusal_auc": 1.0,
+  "truth_auc": 1.0,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 12,
+  "refusal_auc_last": 0.9999,
+  "truth_auc_last": 0.996,
+  "wu": {
+    "refusal": 0.4269187577558845,
+    "truth": 1.8991387265268544,
+    "FARS_pc1": 2.2438341239831785,
+    "refusal_last": 0.41449299535262313,
+    "truth_last": 0.8170288313000598,
+    "NextTok_pc1": 3.627307672104369,
+    "Random": 0.24876490950568528
+  },
+  "readout_L": {
+    "refusal": 0.18550404571673088,
+    "truth": 0.1568797375142361,
+    "FARS_pc1": 0.2695339722431006,
+    "refusal_last": 0.40995872181770043,
+    "truth_last": 0.2612872941686392,
+    "NextTok_pc1": 0.05229625707385685,
+    "Random": 0.2471181375414119
+  }
+}

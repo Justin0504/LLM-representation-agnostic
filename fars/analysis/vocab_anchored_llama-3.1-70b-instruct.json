@@ -1,0 +1,32 @@
+{
+  "model": "llama-3.1-70b-instruct",
+  "D": 8192,
+  "V": 128256,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.1220703125,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.229552232345972,
+    "energy_in_topk_readout_pct": 12.469503369614666,
+    "min_principal_angle_deg": 40.505305412531435
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.864309280153045,
+    "energy_in_topk_readout_pct": 0.161360417470576,
+    "min_principal_angle_deg": 85.60367471350406
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.839854272069625,
+    "energy_pct": 0.2225249386668262
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.11667937704273737
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 2.372866981708385,
+    "std": 0.5698139527815993,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "model": "qwen2.5-7b",
+  "block": 13,
+  "D": 3584,
+  "K": 10,
+  "haar_pct": 0.27901785714285715,
+  "refusal_auc": 0.993,
+  "truth_auc": 0.9968,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 13,
+  "refusal_auc_last": 0.9999,
+  "truth_auc_last": 0.8692,
+  "wu": {
+    "refusal": 0.336647509870573,
+    "truth": 0.8765553495045767,
+    "FARS_pc1": 1.357012341189239,
+    "refusal_last": 5.516237426716413,
+    "truth_last": 22.472055468663374,
+    "NextTok_pc1": 25.97154638737394,
+    "Random": 0.2651883353118646
+  },
+  "readout_L": {
+    "refusal": 0.5787482695882844,
+    "truth": 0.2914826594175365,
+    "FARS_pc1": 0.48476312841443053,
+    "refusal_last": 0.6358477971807963,
+    "truth_last": 0.5015222698565456,
+    "NextTok_pc1": 0.028975765695274738,
+    "Random": 0.26436042117021485
+  }
+}

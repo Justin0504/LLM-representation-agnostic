@@ -1,0 +1,32 @@
+{
+  "model": "olmo-2-7b-instruct",
+  "D": 4096,
+  "V": 100352,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.244140625,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.438070407610689,
+    "energy_in_topk_readout_pct": 6.465810752003315,
+    "min_principal_angle_deg": 48.60673257805267
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.824326640242246,
+    "energy_in_topk_readout_pct": 0.3082066789662771,
+    "min_principal_angle_deg": 84.19443709013458
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.814003048237369,
+    "energy_pct": 0.3630779100610716
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.2502286091698723
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 4.604064696066367,
+    "std": 0.657443703115307,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

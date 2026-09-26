@@ -1,0 +1,32 @@
+{
+  "model": "r1-distill-qwen-14b",
+  "block": 19,
+  "D": 5120,
+  "K": 10,
+  "haar_pct": 0.1953125,
+  "refusal_auc": 0.9995,
+  "truth_auc": 1.0,
+  "block_mismatch": true,
+  "has_depth_matched": true,
+  "dm_block": 18,
+  "refusal_auc_last": 0.9932,
+  "truth_auc_last": 0.9996,
+  "wu": {
+    "refusal": 0.2517705541587552,
+    "truth": 0.1770934118457739,
+    "FARS_pc1": 0.2505474893137149,
+    "refusal_last": 0.38915526393878813,
+    "truth_last": 0.5564170868522073,
+    "NextTok_pc1": 0.8480261449705491,
+    "Random": 0.18787571361580618
+  },
+  "readout_L": {
+    "refusal": 0.6370923787023258,
+    "truth": 0.19294309707387058,
+    "FARS_pc1": 0.6097957638531633,
+    "refusal_last": 0.4440682693627686,
+    "truth_last": 0.32797997715873994,
+    "NextTok_pc1": 1.1650938343024748,
+    "Random": 0.19855133256934665
+  }
+}

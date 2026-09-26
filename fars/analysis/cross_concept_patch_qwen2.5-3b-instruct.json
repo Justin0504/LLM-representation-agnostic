@@ -1,0 +1,19 @@
+{
+  "model": "qwen2.5-3b-instruct",
+  "layer": 22,
+  "k": 10,
+  "D": 2048,
+  "n_pairs": 40,
+  "FARS": {
+    "moved_pct": 0.0,
+    "median_dA": 1.917854130268097,
+    "median_dB": 0.21972539275884628,
+    "n": 40
+  },
+  "Random": {
+    "moved_pct": 0.0,
+    "median_dA": 2.1604632139205933,
+    "median_dB": 0.0038803599309176207,
+    "n": 40
+  }
+}

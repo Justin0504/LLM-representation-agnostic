@@ -1,0 +1,62 @@
+{
+  "model": "qwen2.5-3b-instruct",
+  "layer": 22,
+  "n_layers": 37,
+  "K": 10,
+  "D": 2048,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.716794576501664,
+    "energy_in_topk_readout_pct": 0.8491266758494525,
+    "min_principal_angle_deg": 80.32221204603084,
+    "frac_of_ceiling": 0.9495702187761854
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.784622787156278,
+    "energy_in_topk_readout_pct": 0.48588095076683524,
+    "min_principal_angle_deg": 83.42693088168048,
+    "frac_of_ceiling": 0.9632251803790008
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.716807751640416,
+    "energy_in_topk_readout_pct": 0.8491034029980348,
+    "min_principal_angle_deg": 80.32600909100337,
+    "frac_of_ceiling": 0.9495728711535963
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.8114191481201285,
+    "energy_in_topk_readout_pct": 0.3934054496063903,
+    "min_principal_angle_deg": 83.19233399495326,
+    "frac_of_ceiling": 0.968619739317313
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.703863241835973,
+    "energy_in_topk_readout_pct": 1.1023934848899544,
+    "min_principal_angle_deg": 77.04380729356544,
+    "frac_of_ceiling": 0.9469669232354506
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.630245173348827,
+    "energy_in_topk_readout_pct": 2.446988704600553,
+    "min_principal_angle_deg": 65.66720489760203,
+    "frac_of_ceiling": 0.9321463657010018
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.71096475845706,
+    "energy_in_topk_readout_pct": 0.9145864302208104,
+    "min_principal_angle_deg": 80.41758623834197,
+    "frac_of_ceiling": 0.9483965781805958
+  },
+  "Random": {
+    "d_G_vs_readout": 4.799264430785558,
+    "energy_in_topk_readout_pct": 0.4182085541235589,
+    "min_principal_angle_deg": 83.84213588138442,
+    "frac_of_ceiling": 0.9661727899301064
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.6262301105558095,
+    "energy_in_topk_readout_pct": 1.8636379749931136,
+    "min_principal_angle_deg": 75.72489951946693,
+    "frac_of_ceiling": 0.9313380659133114
+  }
+}

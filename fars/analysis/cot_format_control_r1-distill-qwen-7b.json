@@ -1,0 +1,50 @@
+{
+  "slug": "r1-distill-qwen-7b",
+  "n": 324,
+  "truncated_pct": 86.41975308641975,
+  "collapse_pct": 57.407407407407405,
+  "n_trace_forms": 6,
+  "trace_form_counts": {
+    "english": 208,
+    "chinese": 48,
+    "french": 38,
+    "code": 11,
+    "math": 9,
+    "list": 10
+  },
+  "prompt_form_counts": {
+    "en_prose": 54,
+    "zh_prose": 54,
+    "fr_prose": 54,
+    "py_code": 54,
+    "math_notation": 54,
+    "structured_list": 54
+  },
+  "cot_layer": 16,
+  "cot_var_explained": 0.8062788469807115,
+  "chance": 0.05555555555555555,
+  "by_prompt_form": {
+    "agn": 0.5524691358024691,
+    "X": 0.4444444444444444,
+    "n_X": 324,
+    "W": 0.6635802469135802,
+    "n_W": 324,
+    "n_groups": 6
+  },
+  "by_trace_form": {
+    "agn": 0.5524691358024691,
+    "X": 0.2808641975308642,
+    "n_X": 324,
+    "W": 0.595679012345679,
+    "n_W": 324,
+    "n_groups": 6
+  },
+  "haar_by_trace_form": {
+    "agn": 0.2222222222222222,
+    "X": 0.05555555555555555,
+    "n_X": 324,
+    "W": 0.3950617283950617,
+    "n_W": 324,
+    "n_groups": 6
+  }
+}

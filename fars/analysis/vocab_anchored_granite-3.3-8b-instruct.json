@@ -1,0 +1,32 @@
+{
+  "model": "granite-3.3-8b-instruct",
+  "D": 4096,
+  "V": 49159,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.244140625,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.503560766611694,
+    "energy_in_topk_readout_pct": 5.7545448836299276,
+    "min_principal_angle_deg": 47.98242802933363
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.726687298885447,
+    "energy_in_topk_readout_pct": 1.1419803934868336,
+    "min_principal_angle_deg": 75.49621411916793
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.8079185791988275,
+    "energy_pct": 0.3792366792286843
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.21019814072908433
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 3.5096139824035895,
+    "std": 0.559989273204279,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

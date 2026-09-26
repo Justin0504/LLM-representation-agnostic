@@ -1,0 +1,62 @@
+{
+  "model": "phi-4",
+  "layer": 12,
+  "n_layers": 40,
+  "K": 10,
+  "D": 5120,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.812394478528003,
+    "energy_in_topk_readout_pct": 0.39838741646851833,
+    "min_principal_angle_deg": 82.28961550697258,
+    "frac_of_ceiling": 0.9688160897611926
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.8275816828056,
+    "energy_in_topk_readout_pct": 0.284067736590181,
+    "min_principal_angle_deg": 84.64450141407508,
+    "frac_of_ceiling": 0.971873529862638
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.8123944814926345,
+    "energy_in_topk_readout_pct": 0.3983874076807844,
+    "min_principal_angle_deg": 82.2896153949323,
+    "frac_of_ceiling": 0.9688160903580229
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.833032153344101,
+    "energy_in_topk_readout_pct": 0.28910297209920516,
+    "min_principal_angle_deg": 84.11983692342694,
+    "frac_of_ceiling": 0.972970801413844
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.800502708649199,
+    "energy_in_topk_readout_pct": 0.4415607620047758,
+    "min_principal_angle_deg": 82.31228668598172,
+    "frac_of_ceiling": 0.9664220761270802
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.794684516736053,
+    "energy_in_topk_readout_pct": 0.47363649978867167,
+    "min_principal_angle_deg": 82.254876350546,
+    "frac_of_ceiling": 0.965250776067635
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.800053580316511,
+    "energy_in_topk_readout_pct": 0.4642256045261796,
+    "min_principal_angle_deg": 82.7581777226218,
+    "frac_of_ceiling": 0.9663316590266083
+  },
+  "Random": {
+    "d_G_vs_readout": 4.863633676887686,
+    "energy_in_topk_readout_pct": 0.15259471309856532,
+    "min_principal_angle_deg": 86.02235744993263,
+    "frac_of_ceiling": 0.9791314036904262
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.454814677957393,
+    "energy_in_topk_readout_pct": 4.285201203948388,
+    "min_principal_angle_deg": 62.683921627748965,
+    "frac_of_ceiling": 0.896829251252399
+  }
+}

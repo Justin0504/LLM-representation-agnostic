@@ -1,0 +1,32 @@
+{
+  "model": "qwen3-4b",
+  "D": 2560,
+  "V": 151936,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.390625,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.5067420361605395,
+    "energy_in_topk_readout_pct": 6.122324105179104,
+    "min_principal_angle_deg": 45.699125064510966
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.750541322788601,
+    "energy_in_topk_readout_pct": 0.6317300893005634,
+    "min_principal_angle_deg": 81.71207885971336
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.761411084868225,
+    "energy_pct": 0.6213099516364018
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.3551702632586526
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 2.9797930438991655,
+    "std": 0.4571133861007191,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

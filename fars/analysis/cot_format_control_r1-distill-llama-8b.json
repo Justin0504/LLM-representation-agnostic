@@ -1,0 +1,50 @@
+{
+  "slug": "r1-distill-llama-8b",
+  "n": 324,
+  "truncated_pct": 78.70370370370371,
+  "collapse_pct": 55.925925925925924,
+  "n_trace_forms": 6,
+  "trace_form_counts": {
+    "english": 205,
+    "chinese": 54,
+    "french": 39,
+    "list": 7,
+    "code": 12,
+    "math": 7
+  },
+  "prompt_form_counts": {
+    "en_prose": 54,
+    "zh_prose": 54,
+    "fr_prose": 54,
+    "py_code": 54,
+    "math_notation": 54,
+    "structured_list": 54
+  },
+  "cot_layer": 9,
+  "cot_var_explained": 0.8620805353105719,
+  "chance": 0.05555555555555555,
+  "by_prompt_form": {
+    "agn": 0.3487654320987654,
+    "X": 0.3055555555555556,
+    "n_X": 324,
+    "W": 0.6975308641975309,
+    "n_W": 324,
+    "n_groups": 6
+  },
+  "by_trace_form": {
+    "agn": 0.3487654320987654,
+    "X": 0.26851851851851855,
+    "n_X": 324,
+    "W": 0.5246913580246914,
+    "n_W": 324,
+    "n_groups": 6
+  },
+  "haar_by_trace_form": {
+    "agn": 0.22530864197530864,
+    "X": 0.08024691358024691,
+    "n_X": 324,
+    "W": 0.3888888888888889,
+    "n_W": 324,
+    "n_groups": 6
+  }
+}

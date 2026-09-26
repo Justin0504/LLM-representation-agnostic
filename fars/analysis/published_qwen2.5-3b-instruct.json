@@ -1,0 +1,32 @@
+{
+  "model": "qwen2.5-3b-instruct",
+  "block": 21,
+  "D": 2048,
+  "K": 10,
+  "haar_pct": 0.48828125,
+  "refusal_auc": 0.9997,
+  "truth_auc": 1.0,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 21,
+  "refusal_auc_last": 0.9996,
+  "truth_auc_last": 0.9608,
+  "wu": {
+    "refusal": 1.1393810495822023,
+    "truth": 0.7138137629677087,
+    "FARS_pc1": 0.4709458113241373,
+    "refusal_last": 1.5976698294415896,
+    "truth_last": 4.346180225763812,
+    "NextTok_pc1": 1.9950433323224535,
+    "Random": 0.478248641521422
+  },
+  "readout_L": {
+    "refusal": 0.2394478941060623,
+    "truth": 0.5170550497364506,
+    "FARS_pc1": 1.314824174039627,
+    "refusal_last": 0.4455703378355028,
+    "truth_last": 1.0708021970661146,
+    "NextTok_pc1": 8.217819526689826,
+    "Random": 0.4712857211487662
+  }
+}

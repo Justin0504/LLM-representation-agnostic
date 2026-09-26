@@ -1,0 +1,32 @@
+{
+  "model": "mixtral-8x7b-instruct",
+  "D": 4096,
+  "V": 32000,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.244140625,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.469623368831845,
+    "energy_in_topk_readout_pct": 6.003436706779883,
+    "min_principal_angle_deg": 51.02277329721054
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.755247135037295,
+    "energy_in_topk_readout_pct": 1.0015499375703094,
+    "min_principal_angle_deg": 74.3762874016824
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.7796970280032465,
+    "energy_pct": 0.5233001039359294
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.30658806413190853
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 3.713702448885635,
+    "std": 0.6118747990949407,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

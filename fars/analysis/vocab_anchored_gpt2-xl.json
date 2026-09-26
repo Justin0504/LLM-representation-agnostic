@@ -1,0 +1,32 @@
+{
+  "model": "gpt2-xl",
+  "D": 1600,
+  "V": 50257,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.625,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.128048826427083,
+    "energy_in_topk_readout_pct": 11.514767176872994,
+    "min_principal_angle_deg": 47.45708349446932
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.674208813963643,
+    "energy_in_topk_readout_pct": 1.3595224487881312,
+    "min_principal_angle_deg": 76.23112996223048
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.710186543690946,
+    "energy_pct": 1.0122376497247147
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.6262834059671113
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 8.493510968630067,
+    "std": 1.1685578590754269,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

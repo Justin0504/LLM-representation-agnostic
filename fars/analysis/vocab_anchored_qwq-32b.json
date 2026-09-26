@@ -1,0 +1,32 @@
+{
+  "model": "qwq-32b",
+  "D": 5120,
+  "V": 152064,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.1953125,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.401281052723918,
+    "energy_in_topk_readout_pct": 8.83493456467733,
+    "min_principal_angle_deg": 42.46368405314932
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.786307101742293,
+    "energy_in_topk_readout_pct": 0.6657267671750235,
+    "min_principal_angle_deg": 77.50441720238061
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.820223427410059,
+    "energy_pct": 0.31134208512625705
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.22193569786758152
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 3.224675528116933,
+    "std": 0.43392060998779175,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

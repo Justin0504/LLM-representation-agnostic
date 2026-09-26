@@ -1,0 +1,62 @@
+{
+  "model": "mixtral-8x7b-instruct",
+  "layer": 10,
+  "n_layers": 33,
+  "K": 10,
+  "D": 4096,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.755247135037295,
+    "energy_in_topk_readout_pct": 1.0015499375703094,
+    "min_principal_angle_deg": 74.3762874016824,
+    "frac_of_ceiling": 0.9573113666741853
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.80254844395496,
+    "energy_in_topk_readout_pct": 0.393047151481633,
+    "min_principal_angle_deg": 83.73625233189684,
+    "frac_of_ceiling": 0.9668339171115333
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.75509458788207,
+    "energy_in_topk_readout_pct": 1.0043368362633407,
+    "min_principal_angle_deg": 74.34625218565816,
+    "frac_of_ceiling": 0.9572806563616603
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.798093933673358,
+    "energy_in_topk_readout_pct": 0.44038048351928477,
+    "min_principal_angle_deg": 81.925667379345,
+    "frac_of_ceiling": 0.9659371491403959
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.727757892189137,
+    "energy_in_topk_readout_pct": 1.2999330759418943,
+    "min_principal_angle_deg": 72.42825066773324,
+    "frac_of_ceiling": 0.9517773189385985
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.6660653857835275,
+    "energy_in_topk_readout_pct": 2.651951452194722,
+    "min_principal_angle_deg": 61.8959495563059,
+    "frac_of_ceiling": 0.9393575779780171
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.71288654841361,
+    "energy_in_topk_readout_pct": 1.3844912779833305,
+    "min_principal_angle_deg": 72.28367811665254,
+    "frac_of_ceiling": 0.9487834668779694
+  },
+  "Random": {
+    "d_G_vs_readout": 4.845358019126192,
+    "energy_in_topk_readout_pct": 0.23738880178391897,
+    "min_principal_angle_deg": 84.26395846452832,
+    "frac_of_ceiling": 0.9754522058671171
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.5955646305220865,
+    "energy_in_topk_readout_pct": 2.608732881814972,
+    "min_principal_angle_deg": 68.92652588710152,
+    "frac_of_ceiling": 0.9251645881176987
+  }
+}

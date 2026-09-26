@@ -1,0 +1,32 @@
+{
+  "model": "r1-distill-qwen-14b",
+  "D": 5120,
+  "V": 152064,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.1953125,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.486295816344797,
+    "energy_in_topk_readout_pct": 6.1243788528233924,
+    "min_principal_angle_deg": 49.24967001407793
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.838730570594414,
+    "energy_in_topk_readout_pct": 0.22723987157478942,
+    "min_principal_angle_deg": 85.22892999588625
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.827540457784908,
+    "energy_pct": 0.27066791445917443
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.24049286052985702
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 1.9932029364496207,
+    "std": 0.2818443589664141,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

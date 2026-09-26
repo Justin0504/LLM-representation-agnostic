@@ -1,0 +1,247 @@
+# TriForm Benchmark: Reasoning concepts for representation-agnostic analysis
+# Each concept is a fundamental reasoning primitive that can be expressed
+# in multiple surface forms (language × symbolic system × structure)
+#
+# Design: 20 concepts × 6 forms = 120 stimuli (minimum)
+# Each concept has multiple instances for statistical power.
+
+domains:
+  arithmetic:
+    concepts:
+      - id: arith_multi_step
+        name: "Multi-step arithmetic"
+        description: "Evaluate a nested arithmetic expression with mixed operations"
+        instances:
+          - canonical: "Compute (7 + 3) * 4 - 8 / 2"
+            answer: 36
+          - canonical: "Compute 15 - (2 + 3) * 2 + 8"
+            answer: 13
+          - canonical: "Compute (12 / 4 + 5) * 3 - 1"
+            answer: 23
+
+      - id: arith_modular
+        name: "Modular arithmetic"
+        description: "Compute remainder and modular equivalence"
+        instances:
+          - canonical: "What is 47 mod 7?"
+            answer: 5
+          - canonical: "What is 123 mod 11?"
+            answer: 2
+          - canonical: "What is 256 mod 15?"
+            answer: 1
+
+      - id: arith_proportional
+        name: "Proportional reasoning"
+        description: "Determine unknown quantity from a proportion"
+        instances:
+          - canonical: "If 3 items cost 12, how much do 7 items cost?"
+            answer: 28
+          - canonical: "If 5 workers finish in 10 days, how many days for 2 workers?"
+            answer: 25
+          - canonical: "If 8 liters fill 2 tanks, how many liters for 5 tanks?"
+            answer: 20
+
+      - id: arith_gcd
+        name: "Greatest common divisor"
+        description: "Find the GCD of two numbers using Euclidean algorithm"
+        instances:
+          - canonical: "GCD of 48 and 18"
+            answer: 6
+          - canonical: "GCD of 56 and 42"
+            answer: 14
+          - canonical: "GCD of 105 and 30"
+            answer: 15
+
+  logic:
+    concepts:
+      - id: logic_syllogism
+        name: "Categorical syllogism"
+        description: "Derive conclusion from two categorical premises"
+        instances:
+          - canonical: "All mammals are warm-blooded. All dogs are mammals. Therefore all dogs are warm-blooded."
+            answer: true
+          - canonical: "All roses are flowers. All flowers need water. Therefore all roses need water."
+            answer: true
+          - canonical: "Some birds can fly. All eagles are birds. Therefore some eagles can fly."
+            answer: true
+
+      - id: logic_modus_ponens
+        name: "Modus ponens"
+        description: "If P then Q; P is true; therefore Q"
+        instances:
+          - canonical: "If it rains, the ground is wet. It rains. Therefore the ground is wet."
+            answer: true
+          - canonical: "If x > 5, then x > 3. x = 7. Therefore x > 3."
+            answer: true
+          - canonical: "If the switch is on, the light is on. The switch is on. Therefore the light is on."
+            answer: true
+
+      - id: logic_contrapositive
+        name: "Contrapositive reasoning"
+        description: "If P then Q is equivalent to if not-Q then not-P"
+        instances:
+          - canonical: "If it rains then the ground is wet. The ground is not wet. Therefore it does not rain."
+            answer: true
+          - canonical: "If x is prime and x>2, then x is odd. x is even. Therefore x is not prime or x<=2."
+            answer: true
+          - canonical: "If the alarm sounds then there is danger. There is no danger. Therefore the alarm does not sound."
+            answer: true
+
+      - id: logic_negation
+        name: "Negation and De Morgan"
+        description: "Apply De Morgan's laws to simplify negated compound statements"
+        instances:
+          - canonical: "Not (A and B) is equivalent to (not A) or (not B)"
+            answer: true
+          - canonical: "Not (P or Q) is equivalent to (not P) and (not Q)"
+            answer: true
+          - canonical: "Not (A and (not B)) is equivalent to (not A) or B"
+            answer: true
+
+  relational:
+    concepts:
+      - id: rel_transitivity
+        name: "Transitive ordering"
+        description: "If A > B and B > C, then A > C"
+        instances:
+          - canonical: "Alice is taller than Bob. Bob is taller than Carol. Who is tallest?"
+            answer: "Alice"
+          - canonical: "X weighs more than Y. Y weighs more than Z. Which is heaviest?"
+            answer: "X"
+          - canonical: "Team A scored higher than Team B. Team B scored higher than Team C. Which team scored highest?"
+            answer: "Team A"
+
+      - id: rel_set_intersection
+        name: "Set intersection"
+        description: "Find elements common to two collections"
+        instances:
+          - canonical: "A = {1,2,3,4,5}, B = {3,4,5,6,7}. What is A intersect B?"
+            answer: "{3,4,5}"
+          - canonical: "A = {red,blue,green}, B = {blue,yellow,green}. What is A intersect B?"
+            answer: "{blue,green}"
+          - canonical: "A = {2,4,6,8}, B = {1,2,3,4}. What is A intersect B?"
+            answer: "{2,4}"
+
+      - id: rel_set_difference
+        name: "Set difference"
+        description: "Find elements in A but not in B"
+        instances:
+          - canonical: "A = {1,2,3,4,5}, B = {3,4,5,6,7}. What is A minus B?"
+            answer: "{1,2}"
+          - canonical: "A = {a,b,c,d}, B = {c,d,e,f}. What is A minus B?"
+            answer: "{a,b}"
+          - canonical: "A = {10,20,30,40}, B = {20,40,60}. What is A minus B?"
+            answer: "{10,30}"
+
+      - id: rel_function_composition
+        name: "Function composition"
+        description: "Apply function g then f: (f o g)(x) = f(g(x))"
+        instances:
+          - canonical: "f(x) = 2x + 1, g(x) = x - 3. What is f(g(5))?"
+            answer: 5
+          - canonical: "f(x) = x^2, g(x) = x + 1. What is f(g(3))?"
+            answer: 16
+          - canonical: "f(x) = 3x, g(x) = x/2 + 4. What is f(g(6))?"
+            answer: 21
+
+  causal:
+    concepts:
+      - id: causal_chain
+        name: "Causal chain"
+        description: "A causes B, B causes C, therefore A indirectly causes C"
+        instances:
+          - canonical: "Smoking causes lung damage. Lung damage causes breathing difficulty. Does smoking cause breathing difficulty?"
+            answer: true
+          - canonical: "Rain causes wet roads. Wet roads cause accidents. Does rain cause accidents?"
+            answer: true
+          - canonical: "Overeating causes weight gain. Weight gain causes health issues. Does overeating cause health issues?"
+            answer: true
+
+      - id: causal_confound
+        name: "Confounding variable"
+        description: "A and B are correlated but both caused by C, not by each other"
+        instances:
+          - canonical: "Ice cream sales and drownings both increase in summer. Does ice cream cause drowning?"
+            answer: false
+          - canonical: "Shoe size and reading ability both increase with age. Does shoe size cause reading ability?"
+            answer: false
+          - canonical: "Cities with more hospitals have more crime. Do hospitals cause crime?"
+            answer: false
+
+      - id: causal_intervention
+        name: "Interventional reasoning"
+        description: "Distinguish observation from intervention (do-calculus intuition)"
+        instances:
+          - canonical: "People who carry umbrellas are correlated with rain. If I carry an umbrella, will it rain?"
+            answer: false
+          - canonical: "Students who study more get better grades. If we force a student to study, will grades improve?"
+            answer: true
+          - canonical: "Tall people earn more on average. If someone wears platform shoes, will they earn more?"
+            answer: false
+
+  spatial:
+    concepts:
+      - id: spatial_direction
+        name: "Directional reasoning"
+        description: "Compose spatial directions to determine relative position"
+        instances:
+          - canonical: "A is north of B. B is east of C. What direction is A from C?"
+            answer: "northeast"
+          - canonical: "X is west of Y. Y is south of Z. What direction is X from Z?"
+            answer: "southwest"
+          - canonical: "P is east of Q. Q is north of R. What direction is P from R?"
+            answer: "northeast"
+
+      - id: spatial_containment
+        name: "Spatial containment"
+        description: "Determine containment relations from nested descriptions"
+        instances:
+          - canonical: "Box A is inside Box B. Box B is inside Box C. Is Box A inside Box C?"
+            answer: true
+          - canonical: "Room X contains Room Y. Room Y contains Object Z. Is Object Z in Room X?"
+            answer: true
+          - canonical: "Bag 1 is in Bag 2. Bag 2 is in Bag 3. Is Bag 3 in Bag 1?"
+            answer: false
+
+      - id: spatial_rotation
+        name: "Mental rotation"
+        description: "Determine result of rotating a configuration"
+        instances:
+          - canonical: "A square has vertices at N, E, S, W. After 90 degrees clockwise rotation, where is the vertex that was at N?"
+            answer: "E"
+          - canonical: "An arrow points north. After 180 degree rotation, which direction does it point?"
+            answer: "south"
+          - canonical: "A triangle has apex at top. After 90 degrees counterclockwise, where is the apex?"
+            answer: "left"
+
+# Surface forms for each instance
+forms:
+  - id: en_prose
+    language: en
+    symbolic_system: natural_language
+    category: natural  # for language_type RDM
+
+  - id: zh_prose
+    language: zh
+    symbolic_system: natural_language
+    category: natural
+
+  - id: fr_prose
+    language: fr
+    symbolic_system: natural_language
+    category: natural
+
+  - id: py_code
+    language: en
+    symbolic_system: code
+    category: formal
+
+  - id: math_notation
+    language: universal
+    symbolic_system: mathematics
+    category: formal
+
+  - id: structured_list
+    language: en
+    symbolic_system: structured_data
+    category: formal

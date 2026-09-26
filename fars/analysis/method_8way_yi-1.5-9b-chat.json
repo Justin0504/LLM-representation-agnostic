@@ -1,0 +1,62 @@
+{
+  "model": "yi-1.5-9b-chat",
+  "layer": 14,
+  "n_layers": 48,
+  "K": 10,
+  "D": 4096,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.807327841137253,
+    "energy_in_topk_readout_pct": 0.35181012895756597,
+    "min_principal_angle_deg": 83.94779396019624,
+    "frac_of_ceiling": 0.9677960902896102
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.817204910228977,
+    "energy_in_topk_readout_pct": 0.3085295517093448,
+    "min_principal_angle_deg": 84.7925759914083,
+    "frac_of_ceiling": 0.9697845107107624
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.807327843923056,
+    "energy_in_topk_readout_pct": 0.3518101206526057,
+    "min_principal_angle_deg": 83.94779403927433,
+    "frac_of_ceiling": 0.9677960908504393
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.826518064078717,
+    "energy_in_topk_readout_pct": 0.28372582265593405,
+    "min_principal_angle_deg": 83.87371300594796,
+    "frac_of_ceiling": 0.9716594054926235
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.801567539658783,
+    "energy_in_topk_readout_pct": 0.4194986785289265,
+    "min_principal_angle_deg": 83.31056817026041,
+    "frac_of_ceiling": 0.9666364445500274
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.795417858417728,
+    "energy_in_topk_readout_pct": 0.4371728814140162,
+    "min_principal_angle_deg": 83.23459253704755,
+    "frac_of_ceiling": 0.9653984101038031
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.808758368860604,
+    "energy_in_topk_readout_pct": 0.3714635417649224,
+    "min_principal_angle_deg": 83.98495836809644,
+    "frac_of_ceiling": 0.9680840796224498
+  },
+  "Random": {
+    "d_G_vs_readout": 4.857554302914749,
+    "energy_in_topk_readout_pct": 0.17504908360699453,
+    "min_principal_angle_deg": 85.82031913472241,
+    "frac_of_ceiling": 0.9779075232818402
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.583833258179605,
+    "energy_in_topk_readout_pct": 2.8507741436612744,
+    "min_principal_angle_deg": 66.76935688799949,
+    "frac_of_ceiling": 0.9228028652100929
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "model": "llama-3.1-8b-instruct",
+  "block": 8,
+  "D": 4096,
+  "K": 10,
+  "haar_pct": 0.244140625,
+  "refusal_auc": 0.9998,
+  "truth_auc": 1.0,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 8,
+  "wu": {
+    "refusal": 0.27386475002332095,
+    "truth": 1.1833501882076012,
+    "FARS_pc1": 0.4383356948091519,
+    "refusal_last": 3.2203920913535313,
+    "truth_last": 4.864743508304261,
+    "NextTok_pc1": 1.2797580905243957,
+    "Random": 0.23648129034354745
+  },
+  "readout_L": {
+    "refusal": 0.301445165920165,
+    "truth": 0.21659362804935983,
+    "FARS_pc1": 0.21590358864310263,
+    "refusal_last": 0.10281856627047084,
+    "truth_last": 0.2424971203135804,
+    "NextTok_pc1": 4.796361119782493,
+    "Random": 0.24233964066414415
+  }
+}

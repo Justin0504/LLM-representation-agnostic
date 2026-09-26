@@ -1,0 +1,32 @@
+{
+  "model": "gpt-oss-20b",
+  "D": 2880,
+  "V": 201088,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.3472222222222222,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.345188089850548,
+    "energy_in_topk_readout_pct": 6.950352364692279,
+    "min_principal_angle_deg": 55.81114791228925
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.836379829641798,
+    "energy_in_topk_readout_pct": 0.2685470470713648,
+    "min_principal_angle_deg": 84.25380439779829
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.790250536064183,
+    "energy_pct": 0.4442630471820216
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.3551381832408979
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 5.994933822178747,
+    "std": 0.49700411546015844,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

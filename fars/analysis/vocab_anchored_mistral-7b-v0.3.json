@@ -1,0 +1,32 @@
+{
+  "model": "mistral-7b-v0.3",
+  "D": 4096,
+  "V": 32768,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.244140625,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.440559513149365,
+    "energy_in_topk_readout_pct": 7.036996525067874,
+    "min_principal_angle_deg": 46.179368628284934
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.819317871516131,
+    "energy_in_topk_readout_pct": 0.36460893092862184,
+    "min_principal_angle_deg": 82.21425000422163
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.791920543902116,
+    "energy_pct": 0.44999333658501517
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.2519129007060267
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 5.4513958006176235,
+    "std": 0.9979199918708899,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

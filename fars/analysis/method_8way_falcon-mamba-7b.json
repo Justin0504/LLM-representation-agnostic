@@ -1,0 +1,62 @@
+{
+  "model": "falcon-mamba-7b",
+  "layer": 30,
+  "n_layers": 65,
+  "K": 10,
+  "D": 4096,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.827351665171217,
+    "energy_in_topk_readout_pct": 0.28591222019084955,
+    "min_principal_angle_deg": 84.16136302355648,
+    "frac_of_ceiling": 0.9718272234374035
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.830700549700376,
+    "energy_in_topk_readout_pct": 0.27364716689014534,
+    "min_principal_angle_deg": 84.68827307880935,
+    "frac_of_ceiling": 0.9725014103165294
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.827349515519642,
+    "energy_in_topk_readout_pct": 0.2859256597678188,
+    "min_principal_angle_deg": 84.16209847003647,
+    "frac_of_ceiling": 0.9718267906763232
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.84124476084408,
+    "energy_in_topk_readout_pct": 0.23242483965555777,
+    "min_principal_angle_deg": 84.9630083451092,
+    "frac_of_ceiling": 0.9746241376730332
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.797267746969823,
+    "energy_in_topk_readout_pct": 0.39828599158706574,
+    "min_principal_angle_deg": 83.94167087504161,
+    "frac_of_ceiling": 0.9657708238370354
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.790708819026581,
+    "energy_in_topk_readout_pct": 0.43181011369082745,
+    "min_principal_angle_deg": 83.60965109324216,
+    "frac_of_ceiling": 0.9644504011345015
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.820489496119908,
+    "energy_in_topk_readout_pct": 0.3224744982858642,
+    "min_principal_angle_deg": 84.35784155018253,
+    "frac_of_ceiling": 0.9704457531906827
+  },
+  "Random": {
+    "d_G_vs_readout": 4.839966915155541,
+    "energy_in_topk_readout_pct": 0.24972111464398727,
+    "min_principal_angle_deg": 84.69889382018687,
+    "frac_of_ceiling": 0.9743668858062521
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.66892369762131,
+    "energy_in_topk_readout_pct": 4.096913475898741,
+    "min_principal_angle_deg": 51.753816175119695,
+    "frac_of_ceiling": 0.9399330043089953
+  }
+}

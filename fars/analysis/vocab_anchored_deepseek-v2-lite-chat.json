@@ -1,0 +1,32 @@
+{
+  "model": "deepseek-v2-lite-chat",
+  "D": 2048,
+  "V": 102400,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.48828125,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.454469417260518,
+    "energy_in_topk_readout_pct": 5.039404943569528,
+    "min_principal_angle_deg": 59.18174858321845
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.756528159159139,
+    "energy_in_topk_readout_pct": 0.6176106874392749,
+    "min_principal_angle_deg": 81.95626978148563
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.712718484257973,
+    "energy_pct": 1.0046425855913172
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.406322510661842
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 4.153557643648351,
+    "std": 0.5342098168447394,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "model": "qwen2.5-7b",
+  "layer": 13,
+  "n_layers": 28,
+  "K": 10,
+  "D": 3584,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.738378931550474,
+    "energy_in_topk_readout_pct": 0.9720459949966638,
+    "min_principal_angle_deg": 76.22669892374135,
+    "frac_of_ceiling": 0.9539155131097459
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.800312713313161,
+    "energy_in_topk_readout_pct": 0.44624399220495464,
+    "min_principal_angle_deg": 82.29357139452956,
+    "frac_of_ceiling": 0.966383826864815
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.738378874551426,
+    "energy_in_topk_readout_pct": 0.972045922372019,
+    "min_principal_angle_deg": 76.22670139354638,
+    "frac_of_ceiling": 0.9539155016348771
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.815975549314717,
+    "energy_in_topk_readout_pct": 0.3263489864934096,
+    "min_principal_angle_deg": 83.973588434934,
+    "frac_of_ceiling": 0.9695370196459354
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.698792913476335,
+    "energy_in_topk_readout_pct": 1.6334676261295724,
+    "min_principal_angle_deg": 69.98873861253509,
+    "frac_of_ceiling": 0.9459461807096442
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.7105898586883,
+    "energy_in_topk_readout_pct": 1.4965550342970582,
+    "min_principal_angle_deg": 70.71345162915365,
+    "frac_of_ceiling": 0.9483211045406762
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.7400645055426915,
+    "energy_in_topk_readout_pct": 0.9889001687953403,
+    "min_principal_angle_deg": 76.89141447377104,
+    "frac_of_ceiling": 0.9542548475536343
+  },
+  "Random": {
+    "d_G_vs_readout": 4.82779719837155,
+    "energy_in_topk_readout_pct": 0.2812159305515523,
+    "min_principal_angle_deg": 85.20712939435595,
+    "frac_of_ceiling": 0.97191691677716
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.4682710839703175,
+    "energy_in_topk_readout_pct": 7.656945486608517,
+    "min_principal_angle_deg": 44.50866263691462,
+    "frac_of_ceiling": 0.8995382525019532
+  }
+}

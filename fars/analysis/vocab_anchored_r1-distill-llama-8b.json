@@ -1,0 +1,32 @@
+{
+  "model": "r1-distill-llama-8b",
+  "D": 4096,
+  "V": 128256,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.244140625,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.207535902960992,
+    "energy_in_topk_readout_pct": 13.20473315925125,
+    "min_principal_angle_deg": 34.53362245746184
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.7665219454569385,
+    "energy_in_topk_readout_pct": 0.9501941303096679,
+    "min_principal_angle_deg": 74.36939933934707
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.789208811197252,
+    "energy_pct": 0.4949090651137513
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.23254304421174593
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 4.330195107651853,
+    "std": 0.7459829578948413,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

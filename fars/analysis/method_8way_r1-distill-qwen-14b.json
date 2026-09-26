@@ -1,0 +1,62 @@
+{
+  "model": "r1-distill-qwen-14b",
+  "layer": 19,
+  "n_layers": 49,
+  "K": 10,
+  "D": 5120,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.838730570594414,
+    "energy_in_topk_readout_pct": 0.22723987157478942,
+    "min_principal_angle_deg": 85.22892999588625,
+    "frac_of_ceiling": 0.9741179888156474
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.838069089691863,
+    "energy_in_topk_readout_pct": 0.2499261322182404,
+    "min_principal_angle_deg": 84.24499081011798,
+    "frac_of_ceiling": 0.9739848215650571
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.8387411370233355,
+    "energy_in_topk_readout_pct": 0.2271980070862198,
+    "min_principal_angle_deg": 85.22969328638216,
+    "frac_of_ceiling": 0.9741201160158168
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.838281523640122,
+    "energy_in_topk_readout_pct": 0.25334752014861367,
+    "min_principal_angle_deg": 84.17882337752829,
+    "frac_of_ceiling": 0.9740275880980176
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.831926769726783,
+    "energy_in_topk_readout_pct": 0.27419373130055275,
+    "min_principal_angle_deg": 83.92626752504314,
+    "frac_of_ceiling": 0.9727482690677126
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.794579712970617,
+    "energy_in_topk_readout_pct": 0.5166437265532058,
+    "min_principal_angle_deg": 80.77234581000971,
+    "frac_of_ceiling": 0.9652296773038751
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.820735998441469,
+    "energy_in_topk_readout_pct": 0.3302870016355554,
+    "min_principal_angle_deg": 84.16970852262571,
+    "frac_of_ceiling": 0.9704953782611871
+  },
+  "Random": {
+    "d_G_vs_readout": 4.86132416178608,
+    "energy_in_topk_readout_pct": 0.1537277954554773,
+    "min_principal_angle_deg": 85.71463673887924,
+    "frac_of_ceiling": 0.9786664593887971
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.725695044771662,
+    "energy_in_topk_readout_pct": 0.9454592486571313,
+    "min_principal_angle_deg": 79.04317712742423,
+    "frac_of_ceiling": 0.9513620329977454
+  }
+}

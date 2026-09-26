@@ -1,0 +1,62 @@
+{
+  "model": "mistral-7b-instruct-v0.3",
+  "layer": 10,
+  "n_layers": 33,
+  "K": 10,
+  "D": 4096,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.814099460582129,
+    "energy_in_topk_readout_pct": 0.40028466237662913,
+    "min_principal_angle_deg": 81.26927867791868,
+    "frac_of_ceiling": 0.9691593313749383
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.831060207598513,
+    "energy_in_topk_readout_pct": 0.294720711992699,
+    "min_principal_angle_deg": 83.47243986292692,
+    "frac_of_ceiling": 0.972573815511091
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.814082176440542,
+    "energy_in_topk_readout_pct": 0.40037068570592355,
+    "min_principal_angle_deg": 81.26815959909504,
+    "frac_of_ceiling": 0.9691558517860265
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.826443066367262,
+    "energy_in_topk_readout_pct": 0.2774794861924778,
+    "min_principal_angle_deg": 84.79716240551868,
+    "frac_of_ceiling": 0.971644307189715
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.783322596629772,
+    "energy_in_topk_readout_pct": 0.5636367108464683,
+    "min_principal_angle_deg": 80.17747842404735,
+    "frac_of_ceiling": 0.962963430119862
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.765351125905281,
+    "energy_in_topk_readout_pct": 0.7029224355950272,
+    "min_principal_angle_deg": 78.88932612990259,
+    "frac_of_ceiling": 0.9593454702721719
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.801792349758169,
+    "energy_in_topk_readout_pct": 0.5445814633180239,
+    "min_principal_angle_deg": 79.47994454896391,
+    "frac_of_ceiling": 0.9666817026107283
+  },
+  "Random": {
+    "d_G_vs_readout": 4.833509972496377,
+    "energy_in_topk_readout_pct": 0.2621558780435028,
+    "min_principal_angle_deg": 84.82830089609517,
+    "frac_of_ceiling": 0.9730669944596938
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.492095937891542,
+    "energy_in_topk_readout_pct": 4.576225149681081,
+    "min_principal_angle_deg": 60.05599283040542,
+    "frac_of_ceiling": 0.9043345970073922
+  }
+}

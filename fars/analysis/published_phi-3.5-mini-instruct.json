@@ -1,0 +1,32 @@
+{
+  "model": "phi-3.5-mini-instruct",
+  "block": 17,
+  "D": 3072,
+  "K": 10,
+  "haar_pct": 0.3255208333333333,
+  "refusal_auc": 0.9998,
+  "truth_auc": 1.0,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 17,
+  "refusal_auc_last": 0.9956,
+  "truth_auc_last": 1.0,
+  "wu": {
+    "refusal": 0.25183369286163215,
+    "truth": 0.2957170339203697,
+    "FARS_pc1": 0.7744932495584359,
+    "refusal_last": 27.652366704145624,
+    "truth_last": 49.430478483009175,
+    "NextTok_pc1": 4.662232125503132,
+    "Random": 0.314040060077572
+  },
+  "readout_L": {
+    "refusal": 0.22020709566193997,
+    "truth": 0.11244789670037784,
+    "FARS_pc1": 0.47693156211430926,
+    "refusal_last": 2.251880516924408,
+    "truth_last": 4.035585920140523,
+    "NextTok_pc1": 7.280187771261014,
+    "Random": 0.32444573434668006
+  }
+}

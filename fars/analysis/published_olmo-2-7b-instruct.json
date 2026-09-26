@@ -1,0 +1,32 @@
+{
+  "model": "olmo-2-7b-instruct",
+  "block": 12,
+  "D": 4096,
+  "K": 10,
+  "haar_pct": 0.244140625,
+  "refusal_auc": 0.9999,
+  "truth_auc": 1.0,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 12,
+  "refusal_auc_last": 1.0,
+  "truth_auc_last": 0.9976,
+  "wu": {
+    "refusal": 0.17102783470751048,
+    "truth": 0.09334738873989294,
+    "FARS_pc1": 0.22453549620500618,
+    "refusal_last": 0.938198645224695,
+    "truth_last": 4.495676280871487,
+    "NextTok_pc1": 1.8475220684417517,
+    "Random": 0.2589243787186301
+  },
+  "readout_L": {
+    "refusal": 0.46969909428134593,
+    "truth": 0.10479685612777671,
+    "FARS_pc1": 0.1596905973651234,
+    "refusal_last": 0.22585589771222137,
+    "truth_last": 0.15536923582789947,
+    "NextTok_pc1": 5.049861499124769,
+    "Random": 0.23714791264177051
+  }
+}

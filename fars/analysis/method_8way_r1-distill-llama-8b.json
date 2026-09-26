@@ -1,0 +1,62 @@
+{
+  "model": "r1-distill-llama-8b",
+  "layer": 20,
+  "n_layers": 33,
+  "K": 10,
+  "D": 4096,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.7665219454569385,
+    "energy_in_topk_readout_pct": 0.9501941303096679,
+    "min_principal_angle_deg": 74.36939933934707,
+    "frac_of_ceiling": 0.9595811759743778
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.8207992941016045,
+    "energy_in_topk_readout_pct": 0.31703632871584897,
+    "min_principal_angle_deg": 84.67400383236574,
+    "frac_of_ceiling": 0.970508120744004
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.766521948623934,
+    "energy_in_topk_readout_pct": 0.9501941062109432,
+    "min_principal_angle_deg": 74.36939953541219,
+    "frac_of_ceiling": 0.9595811766119473
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.818545972092603,
+    "energy_in_topk_readout_pct": 0.326489972790287,
+    "min_principal_angle_deg": 84.34106812788315,
+    "frac_of_ceiling": 0.9700544890586812
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.713597361609802,
+    "energy_in_topk_readout_pct": 2.0976753169561557,
+    "min_principal_angle_deg": 64.97401901185235,
+    "frac_of_ceiling": 0.9489265655504407
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.718869457616227,
+    "energy_in_topk_readout_pct": 1.8204738737864208,
+    "min_principal_angle_deg": 66.96378441505597,
+    "frac_of_ceiling": 0.9499879273030112
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.732016989554887,
+    "energy_in_topk_readout_pct": 1.7201768398401909,
+    "min_principal_angle_deg": 67.42263404436578,
+    "frac_of_ceiling": 0.9526347469973764
+  },
+  "Random": {
+    "d_G_vs_readout": 4.851016477557394,
+    "energy_in_topk_readout_pct": 0.2130223834724345,
+    "min_principal_angle_deg": 84.60770741528886,
+    "frac_of_ceiling": 0.9765913488853906
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.65535160147069,
+    "energy_in_topk_readout_pct": 1.9171554518833973,
+    "min_principal_angle_deg": 71.0552033629388,
+    "frac_of_ceiling": 0.937200712685527
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "model": "olmo-2-7b-instruct",
+  "layer": 13,
+  "n_layers": 33,
+  "K": 10,
+  "D": 4096,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.824326640242246,
+    "energy_in_topk_readout_pct": 0.3082066789662771,
+    "min_principal_angle_deg": 84.19443709013458,
+    "frac_of_ceiling": 0.9712182349523173
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.82860777613373,
+    "energy_in_topk_readout_pct": 0.2753751508404868,
+    "min_principal_angle_deg": 84.57377358620934,
+    "frac_of_ceiling": 0.9720800997376396
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.824332284034906,
+    "energy_in_topk_readout_pct": 0.3082102408652128,
+    "min_principal_angle_deg": 84.19395975845904,
+    "frac_of_ceiling": 0.9712193711428687
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.8429071242023936,
+    "energy_in_topk_readout_pct": 0.22761189648407165,
+    "min_principal_angle_deg": 85.07486175057896,
+    "frac_of_ceiling": 0.9749587994252544
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.800553257851738,
+    "energy_in_topk_readout_pct": 0.39689926003266557,
+    "min_principal_angle_deg": 83.69214813215768,
+    "frac_of_ceiling": 0.9664322525332254
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.80661373749403,
+    "energy_in_topk_readout_pct": 0.3783675549771943,
+    "min_principal_angle_deg": 83.34301966703306,
+    "frac_of_ceiling": 0.9676523291947128
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.816579037061753,
+    "energy_in_topk_readout_pct": 0.3404744200819232,
+    "min_principal_angle_deg": 84.05553697781363,
+    "frac_of_ceiling": 0.9696585118972275
+  },
+  "Random": {
+    "d_G_vs_readout": 4.8170458354357715,
+    "energy_in_topk_readout_pct": 0.33464793712046104,
+    "min_principal_angle_deg": 83.16830983885481,
+    "frac_of_ceiling": 0.9697524862747315
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.495716534798966,
+    "energy_in_topk_readout_pct": 4.712045994354203,
+    "min_principal_angle_deg": 59.34538050466243,
+    "frac_of_ceiling": 0.9050634841661864
+  }
+}

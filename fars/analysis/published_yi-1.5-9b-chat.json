@@ -1,0 +1,32 @@
+{
+  "model": "yi-1.5-9b-chat",
+  "block": 14,
+  "D": 4096,
+  "K": 10,
+  "haar_pct": 0.244140625,
+  "refusal_auc": 0.9982,
+  "truth_auc": 1.0,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 14,
+  "refusal_auc_last": 0.9973,
+  "truth_auc_last": 0.9992,
+  "wu": {
+    "refusal": 0.1403753025560393,
+    "truth": 0.44266349454950393,
+    "FARS_pc1": 0.17793472382220496,
+    "refusal_last": 2.3591757098827952,
+    "truth_last": 0.5481357657206035,
+    "NextTok_pc1": 1.295631313036397,
+    "Random": 0.24088475746826596
+  },
+  "readout_L": {
+    "refusal": 0.16918403630911286,
+    "truth": 0.1791447644843287,
+    "FARS_pc1": 0.8479683588999632,
+    "refusal_last": 0.21576890554676734,
+    "truth_last": 0.16253737977899163,
+    "NextTok_pc1": 13.360569694560262,
+    "Random": 0.24312539273977365
+  }
+}

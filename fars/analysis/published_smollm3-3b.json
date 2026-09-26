@@ -1,0 +1,32 @@
+{
+  "model": "smollm3-3b",
+  "block": 10,
+  "D": 2048,
+  "K": 10,
+  "haar_pct": 0.48828125,
+  "refusal_auc": 0.9992,
+  "truth_auc": 1.0,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 10,
+  "refusal_auc_last": 0.9995,
+  "truth_auc_last": 0.9576,
+  "wu": {
+    "refusal": 0.6352012317461279,
+    "truth": 0.5708095800131767,
+    "FARS_pc1": 1.498955272993292,
+    "refusal_last": 0.09949038694584507,
+    "truth_last": 4.673779821419693,
+    "NextTok_pc1": 1.0617888354146419,
+    "Random": 0.5050830270218641
+  },
+  "readout_L": {
+    "refusal": 0.37819505307954254,
+    "truth": 0.43563374743857813,
+    "FARS_pc1": 0.47925074433500436,
+    "refusal_last": 0.27613018788623506,
+    "truth_last": 0.2780963081761682,
+    "NextTok_pc1": 12.125718817461545,
+    "Random": 0.47434312841667875
+  }
+}

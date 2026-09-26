@@ -1,0 +1,32 @@
+{
+  "model": "mamba-2.8b",
+  "block": 34,
+  "D": 2560,
+  "K": 10,
+  "haar_pct": 0.390625,
+  "refusal_auc": 0.9999,
+  "truth_auc": 1.0,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 34,
+  "refusal_auc_last": 0.9896,
+  "truth_auc_last": 0.9948,
+  "wu": {
+    "refusal": 1.095462502172655,
+    "truth": 0.3620879610604291,
+    "FARS_pc1": 0.6213174102889899,
+    "refusal_last": 12.56693632769433,
+    "truth_last": 8.82171470363445,
+    "NextTok_pc1": 7.71511563583307,
+    "Random": 0.40165221783856525
+  },
+  "readout_L": {
+    "refusal": 1.132667148172071,
+    "truth": 0.1984543303576871,
+    "FARS_pc1": 0.4395978837567788,
+    "refusal_last": 2.172261858755118,
+    "truth_last": 2.88437938265153,
+    "NextTok_pc1": 6.4492001967888,
+    "Random": 0.38111591954000057
+  }
+}

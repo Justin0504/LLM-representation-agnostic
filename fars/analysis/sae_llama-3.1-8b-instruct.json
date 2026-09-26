@@ -1,0 +1,43 @@
+{
+  "model": "llama-3.1-8b-instruct",
+  "sae": "Goodfire/Llama-3.1-8B-Instruct-SAE-l19",
+  "layer": 19,
+  "D": 4096,
+  "n_features": 65536,
+  "n_alive": 3587,
+  "top_m": 16,
+  "K": 10,
+  "haar_null_energy_pct": 0.244140625,
+  "fars_native_layer": 8,
+  "mean_L0": 97.64197530864197,
+  "fvu": 0.5938236713409424,
+  "SAE_concept": {
+    "d_G_vs_readout": 4.748154395044681,
+    "energy_in_topk_readout_pct": 1.06037590760704,
+    "min_principal_angle_deg": 73.84887024050204
+  },
+  "SAE_random_features": {
+    "d_G_vs_readout": 4.749478584651987,
+    "energy_in_topk_readout_pct": 0.877301250604334,
+    "min_principal_angle_deg": 76.50320418910745
+  },
+  "SAE_decoder_pca": {
+    "d_G_vs_readout": 4.589822354406374,
+    "energy_in_topk_readout_pct": 3.9295047785522446,
+    "min_principal_angle_deg": 56.309052431824284
+  },
+  "FARS_same_layer": {
+    "d_G_vs_readout": 4.758874205547118,
+    "energy_in_topk_readout_pct": 0.9558099295704148,
+    "min_principal_angle_deg": 75.1186015178116
+  },
+  "FARS_native_layer": {
+    "d_G_vs_readout": 4.7889738178428845,
+    "energy_in_topk_readout_pct": 0.48983863639872693,
+    "min_principal_angle_deg": 81.5723682371252
+  },
+  "sae_vs_fars_same_layer": {
+    "energy_pct": 26.14817946908351,
+    "d_G": 3.3568632384543524
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "model": "deepseek-v2-lite-chat",
+  "block": 13,
+  "D": 2048,
+  "K": 10,
+  "haar_pct": 0.48828125,
+  "refusal_auc": 0.9998,
+  "truth_auc": 1.0,
+  "block_mismatch": true,
+  "has_depth_matched": true,
+  "dm_block": 12,
+  "refusal_auc_last": 0.9987,
+  "truth_auc_last": 0.8988,
+  "wu": {
+    "refusal": 0.586219002590799,
+    "truth": 1.4206928442570517,
+    "FARS_pc1": 0.5333777628989453,
+    "refusal_last": 7.5514389905102535,
+    "truth_last": 8.366929290650798,
+    "NextTok_pc1": 0.789575011773037,
+    "Random": 0.4838511176120319
+  },
+  "readout_L": {
+    "refusal": 1.043208289161434,
+    "truth": 1.0111610301626766,
+    "FARS_pc1": 0.6480954044300055,
+    "refusal_last": 2.4060018811416253,
+    "truth_last": 1.6132370238910898,
+    "NextTok_pc1": 1.4773299201805086,
+    "Random": 0.47725358021315345
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "model": "qwen3-8b",
+  "block": 10,
+  "D": 4096,
+  "K": 10,
+  "haar_pct": 0.244140625,
+  "refusal_auc": 0.9994,
+  "truth_auc": 0.9932,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 10,
+  "refusal_auc_last": 0.999,
+  "truth_auc_last": 0.998,
+  "wu": {
+    "refusal": 0.2323709056655466,
+    "truth": 0.229958662590297,
+    "FARS_pc1": 0.6903891831757252,
+    "refusal_last": 0.46804794617115547,
+    "truth_last": 0.8596007492570357,
+    "NextTok_pc1": 1.6123410184662414,
+    "Random": 0.2414111829258511
+  },
+  "readout_L": {
+    "refusal": 0.22901997951255276,
+    "truth": 0.20040320179333962,
+    "FARS_pc1": 0.7353802963893012,
+    "refusal_last": 0.24672200526653043,
+    "truth_last": 0.5108218048494597,
+    "NextTok_pc1": 3.9823648752464207,
+    "Random": 0.2469578484686413
+  }
+}

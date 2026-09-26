@@ -1,0 +1,62 @@
+{
+  "model": "llama-3.1-70b-instruct",
+  "layer": 23,
+  "n_layers": 81,
+  "K": 10,
+  "D": 8192,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.864309280153045,
+    "energy_in_topk_readout_pct": 0.161360417470576,
+    "min_principal_angle_deg": 85.60367471350406,
+    "frac_of_ceiling": 0.979267414010589
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.866194087605976,
+    "energy_in_topk_readout_pct": 0.1576530956021866,
+    "min_principal_angle_deg": 85.94798029463122,
+    "frac_of_ceiling": 0.9796468575068877
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.864306239886637,
+    "energy_in_topk_readout_pct": 0.16138405396445532,
+    "min_principal_angle_deg": 85.60241598936034,
+    "frac_of_ceiling": 0.9792668019537374
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.876709524363229,
+    "energy_in_topk_readout_pct": 0.12775785028269596,
+    "min_principal_angle_deg": 86.25173285030422,
+    "frac_of_ceiling": 0.9817637920945962
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.861856376213238,
+    "energy_in_topk_readout_pct": 0.19495909236403985,
+    "min_principal_angle_deg": 84.01622131676157,
+    "frac_of_ceiling": 0.9787736031199551
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.860380876340479,
+    "energy_in_topk_readout_pct": 0.18553897908784897,
+    "min_principal_angle_deg": 84.5042211109442,
+    "frac_of_ceiling": 0.9784765601357303
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.856921308581057,
+    "energy_in_topk_readout_pct": 0.20111008397480706,
+    "min_principal_angle_deg": 84.20409123926004,
+    "frac_of_ceiling": 0.977780090857515
+  },
+  "Random": {
+    "d_G_vs_readout": 4.876769862352757,
+    "energy_in_topk_readout_pct": 0.11460383134044118,
+    "min_principal_angle_deg": 86.62467405556602,
+    "frac_of_ceiling": 0.9817759391484877
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.675200966940467,
+    "energy_in_topk_readout_pct": 1.6544012436014894,
+    "min_principal_angle_deg": 72.628527536924,
+    "frac_of_ceiling": 0.9411967243849985
+  }
+}

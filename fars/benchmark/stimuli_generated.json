@@ -1,0 +1,2270 @@
+[
+  {
+    "concept_id": 0,
+    "form_id": 0,
+    "concept_name": "arith_multi_step",
+    "form_name": "en_prose",
+    "text": "Calculate the value of the expression (7 + 3) * 4 - 8 / 2. First evaluate any operations inside parentheses, then multiply and divide from left to right, and finally add and subtract. The answer is 36."
+  },
+  {
+    "concept_id": 0,
+    "form_id": 1,
+    "concept_name": "arith_multi_step",
+    "form_name": "zh_prose",
+    "text": "计算表达式 (7 + 3) * 4 - 8 / 2 的值。首先计算括号内的运算，然后从左到右执行乘除法，最后执行加减法。答案是 36。"
+  },
+  {
+    "concept_id": 0,
+    "form_id": 2,
+    "concept_name": "arith_multi_step",
+    "form_name": "fr_prose",
+    "text": "Calculez la valeur de l'expression (7 + 3) * 4 - 8 / 2. Évaluez d'abord les opérations entre parenthèses, puis multipliez et divisez de gauche à droite, et enfin additionnez et soustrayez. La réponse est 36."
+  },
+  {
+    "concept_id": 0,
+    "form_id": 3,
+    "concept_name": "arith_multi_step",
+    "form_name": "py_code",
+    "text": "# Evaluate arithmetic expression\nresult = (7 + 3) * 4 - 8 / 2\nassert result == 36  # multi-step evaluation"
+  },
+  {
+    "concept_id": 0,
+    "form_id": 4,
+    "concept_name": "arith_multi_step",
+    "form_name": "math_notation",
+    "text": "Let E = (7 + 3) * 4 - 8 / 2. By order of operations (PEMDAS): E = 36."
+  },
+  {
+    "concept_id": 0,
+    "form_id": 5,
+    "concept_name": "arith_multi_step",
+    "form_name": "structured_list",
+    "text": "Task: Evaluate expression\nInput: (7 + 3) * 4 - 8 / 2\nStep 1: Evaluate parentheses\nStep 2: Multiply and divide left to right\nStep 3: Add and subtract left to right\nResult: 36"
+  },
+  {
+    "concept_id": 0,
+    "form_id": 0,
+    "concept_name": "arith_multi_step",
+    "form_name": "en_prose",
+    "text": "Calculate the value of the expression 15 - (2 + 3) * 2 + 8. First evaluate any operations inside parentheses, then multiply and divide from left to right, and finally add and subtract. The answer is 13."
+  },
+  {
+    "concept_id": 0,
+    "form_id": 1,
+    "concept_name": "arith_multi_step",
+    "form_name": "zh_prose",
+    "text": "计算表达式 15 - (2 + 3) * 2 + 8 的值。首先计算括号内的运算，然后从左到右执行乘除法，最后执行加减法。答案是 13。"
+  },
+  {
+    "concept_id": 0,
+    "form_id": 2,
+    "concept_name": "arith_multi_step",
+    "form_name": "fr_prose",
+    "text": "Calculez la valeur de l'expression 15 - (2 + 3) * 2 + 8. Évaluez d'abord les opérations entre parenthèses, puis multipliez et divisez de gauche à droite, et enfin additionnez et soustrayez. La réponse est 13."
+  },
+  {
+    "concept_id": 0,
+    "form_id": 3,
+    "concept_name": "arith_multi_step",
+    "form_name": "py_code",
+    "text": "# Evaluate arithmetic expression\nresult = 15 - (2 + 3) * 2 + 8\nassert result == 13  # multi-step evaluation"
+  },
+  {
+    "concept_id": 0,
+    "form_id": 4,
+    "concept_name": "arith_multi_step",
+    "form_name": "math_notation",
+    "text": "Let E = 15 - (2 + 3) * 2 + 8. By order of operations (PEMDAS): E = 13."
+  },
+  {
+    "concept_id": 0,
+    "form_id": 5,
+    "concept_name": "arith_multi_step",
+    "form_name": "structured_list",
+    "text": "Task: Evaluate expression\nInput: 15 - (2 + 3) * 2 + 8\nStep 1: Evaluate parentheses\nStep 2: Multiply and divide left to right\nStep 3: Add and subtract left to right\nResult: 13"
+  },
+  {
+    "concept_id": 0,
+    "form_id": 0,
+    "concept_name": "arith_multi_step",
+    "form_name": "en_prose",
+    "text": "Calculate the value of the expression (12 / 4 + 5) * 3 - 1. First evaluate any operations inside parentheses, then multiply and divide from left to right, and finally add and subtract. The answer is 23."
+  },
+  {
+    "concept_id": 0,
+    "form_id": 1,
+    "concept_name": "arith_multi_step",
+    "form_name": "zh_prose",
+    "text": "计算表达式 (12 / 4 + 5) * 3 - 1 的值。首先计算括号内的运算，然后从左到右执行乘除法，最后执行加减法。答案是 23。"
+  },
+  {
+    "concept_id": 0,
+    "form_id": 2,
+    "concept_name": "arith_multi_step",
+    "form_name": "fr_prose",
+    "text": "Calculez la valeur de l'expression (12 / 4 + 5) * 3 - 1. Évaluez d'abord les opérations entre parenthèses, puis multipliez et divisez de gauche à droite, et enfin additionnez et soustrayez. La réponse est 23."
+  },
+  {
+    "concept_id": 0,
+    "form_id": 3,
+    "concept_name": "arith_multi_step",
+    "form_name": "py_code",
+    "text": "# Evaluate arithmetic expression\nresult = (12 / 4 + 5) * 3 - 1\nassert result == 23  # multi-step evaluation"
+  },
+  {
+    "concept_id": 0,
+    "form_id": 4,
+    "concept_name": "arith_multi_step",
+    "form_name": "math_notation",
+    "text": "Let E = (12 / 4 + 5) * 3 - 1. By order of operations (PEMDAS): E = 23."
+  },
+  {
+    "concept_id": 0,
+    "form_id": 5,
+    "concept_name": "arith_multi_step",
+    "form_name": "structured_list",
+    "text": "Task: Evaluate expression\nInput: (12 / 4 + 5) * 3 - 1\nStep 1: Evaluate parentheses\nStep 2: Multiply and divide left to right\nStep 3: Add and subtract left to right\nResult: 23"
+  },
+  {
+    "concept_id": 1,
+    "form_id": 0,
+    "concept_name": "arith_modular",
+    "form_name": "en_prose",
+    "text": "When 47 is divided by 7, the quotient is 6 and the remainder is 5. Therefore 47 modulo 7 equals 5."
+  },
+  {
+    "concept_id": 1,
+    "form_id": 1,
+    "concept_name": "arith_modular",
+    "form_name": "zh_prose",
+    "text": "将 47 除以 7，商为 6，余数为 5。因此 47 模 7 等于 5。"
+  },
+  {
+    "concept_id": 1,
+    "form_id": 2,
+    "concept_name": "arith_modular",
+    "form_name": "fr_prose",
+    "text": "Lorsque 47 est divisé par 7, le quotient est 6 et le reste est 5. Donc 47 modulo 7 est égal à 5."
+  },
+  {
+    "concept_id": 1,
+    "form_id": 3,
+    "concept_name": "arith_modular",
+    "form_name": "py_code",
+    "text": "# Modular arithmetic\nresult = 47 % 7\nassert result == 5  # remainder of 47 / 7"
+  },
+  {
+    "concept_id": 1,
+    "form_id": 4,
+    "concept_name": "arith_modular",
+    "form_name": "math_notation",
+    "text": "47 ≡ 5 (mod 7), since 47 = 7 × 6 + 5."
+  },
+  {
+    "concept_id": 1,
+    "form_id": 5,
+    "concept_name": "arith_modular",
+    "form_name": "structured_list",
+    "text": "Task: Modular arithmetic\nDividend: 47\nDivisor: 7\nQuotient: 6\nRemainder: 5\nResult: 47 mod 7 = 5"
+  },
+  {
+    "concept_id": 1,
+    "form_id": 0,
+    "concept_name": "arith_modular",
+    "form_name": "en_prose",
+    "text": "When 123 is divided by 11, the quotient is 11 and the remainder is 2. Therefore 123 modulo 11 equals 2."
+  },
+  {
+    "concept_id": 1,
+    "form_id": 1,
+    "concept_name": "arith_modular",
+    "form_name": "zh_prose",
+    "text": "将 123 除以 11，商为 11，余数为 2。因此 123 模 11 等于 2。"
+  },
+  {
+    "concept_id": 1,
+    "form_id": 2,
+    "concept_name": "arith_modular",
+    "form_name": "fr_prose",
+    "text": "Lorsque 123 est divisé par 11, le quotient est 11 et le reste est 2. Donc 123 modulo 11 est égal à 2."
+  },
+  {
+    "concept_id": 1,
+    "form_id": 3,
+    "concept_name": "arith_modular",
+    "form_name": "py_code",
+    "text": "# Modular arithmetic\nresult = 123 % 11\nassert result == 2  # remainder of 123 / 11"
+  },
+  {
+    "concept_id": 1,
+    "form_id": 4,
+    "concept_name": "arith_modular",
+    "form_name": "math_notation",
+    "text": "123 ≡ 2 (mod 11), since 123 = 11 × 11 + 2."
+  },
+  {
+    "concept_id": 1,
+    "form_id": 5,
+    "concept_name": "arith_modular",
+    "form_name": "structured_list",
+    "text": "Task: Modular arithmetic\nDividend: 123\nDivisor: 11\nQuotient: 11\nRemainder: 2\nResult: 123 mod 11 = 2"
+  },
+  {
+    "concept_id": 1,
+    "form_id": 0,
+    "concept_name": "arith_modular",
+    "form_name": "en_prose",
+    "text": "When 256 is divided by 15, the quotient is 17 and the remainder is 1. Therefore 256 modulo 15 equals 1."
+  },
+  {
+    "concept_id": 1,
+    "form_id": 1,
+    "concept_name": "arith_modular",
+    "form_name": "zh_prose",
+    "text": "将 256 除以 15，商为 17，余数为 1。因此 256 模 15 等于 1。"
+  },
+  {
+    "concept_id": 1,
+    "form_id": 2,
+    "concept_name": "arith_modular",
+    "form_name": "fr_prose",
+    "text": "Lorsque 256 est divisé par 15, le quotient est 17 et le reste est 1. Donc 256 modulo 15 est égal à 1."
+  },
+  {
+    "concept_id": 1,
+    "form_id": 3,
+    "concept_name": "arith_modular",
+    "form_name": "py_code",
+    "text": "# Modular arithmetic\nresult = 256 % 15\nassert result == 1  # remainder of 256 / 15"
+  },
+  {
+    "concept_id": 1,
+    "form_id": 4,
+    "concept_name": "arith_modular",
+    "form_name": "math_notation",
+    "text": "256 ≡ 1 (mod 15), since 256 = 15 × 17 + 1."
+  },
+  {
+    "concept_id": 1,
+    "form_id": 5,
+    "concept_name": "arith_modular",
+    "form_name": "structured_list",
+    "text": "Task: Modular arithmetic\nDividend: 256\nDivisor: 15\nQuotient: 17\nRemainder: 1\nResult: 256 mod 15 = 1"
+  },
+  {
+    "concept_id": 2,
+    "form_id": 0,
+    "concept_name": "arith_proportional",
+    "form_name": "en_prose",
+    "text": "If 3 items cost 12, how much do 7 items cost? Using proportional reasoning, if the ratio is maintained, the answer is 28."
+  },
+  {
+    "concept_id": 2,
+    "form_id": 1,
+    "concept_name": "arith_proportional",
+    "form_name": "zh_prose",
+    "text": "如果3件物品花费12元，那么7件物品花费多少？按比例计算：单价为4元，7件物品花费 28 元。"
+  },
+  {
+    "concept_id": 2,
+    "form_id": 2,
+    "concept_name": "arith_proportional",
+    "form_name": "fr_prose",
+    "text": "If 3 items cost 12, how much do 7 items cost? Par raisonnement proportionnel, si le rapport est maintenu, la réponse est 28."
+  },
+  {
+    "concept_id": 2,
+    "form_id": 3,
+    "concept_name": "arith_proportional",
+    "form_name": "py_code",
+    "text": "# Proportional reasoning\nunit_price = 12 / 3\nresult = unit_price * 7\nassert result == 28"
+  },
+  {
+    "concept_id": 2,
+    "form_id": 4,
+    "concept_name": "arith_proportional",
+    "form_name": "math_notation",
+    "text": "Let c = cost per item = 12/3 = 4. For 7 items: 7c = 7 × 4 = 28."
+  },
+  {
+    "concept_id": 2,
+    "form_id": 5,
+    "concept_name": "arith_proportional",
+    "form_name": "structured_list",
+    "text": "Task: Proportional reasoning\nGiven: If 3 items cost 12, how much do 7 items cost?\nMethod: Maintain constant ratio\nAnswer: 28"
+  },
+  {
+    "concept_id": 2,
+    "form_id": 0,
+    "concept_name": "arith_proportional",
+    "form_name": "en_prose",
+    "text": "If 5 workers finish in 10 days, how many days for 2 workers? Using proportional reasoning, if the ratio is maintained, the answer is 25."
+  },
+  {
+    "concept_id": 2,
+    "form_id": 1,
+    "concept_name": "arith_proportional",
+    "form_name": "zh_prose",
+    "text": "如果5个工人10天完成工作，2个工人需要多少天？工作总量不变，25 天。"
+  },
+  {
+    "concept_id": 2,
+    "form_id": 2,
+    "concept_name": "arith_proportional",
+    "form_name": "fr_prose",
+    "text": "If 5 workers finish in 10 days, how many days for 2 workers? Par raisonnement proportionnel, si le rapport est maintenu, la réponse est 25."
+  },
+  {
+    "concept_id": 2,
+    "form_id": 3,
+    "concept_name": "arith_proportional",
+    "form_name": "py_code",
+    "text": "# Inverse proportion: workers × days = constant\ntotal_work = 5 * 10\nresult = total_work / 2\nassert result == 25"
+  },
+  {
+    "concept_id": 2,
+    "form_id": 4,
+    "concept_name": "arith_proportional",
+    "form_name": "math_notation",
+    "text": "Let W = total work = 5 × 10 = 50 worker-days. For 2 workers: t = W/2 = 25 days."
+  },
+  {
+    "concept_id": 2,
+    "form_id": 5,
+    "concept_name": "arith_proportional",
+    "form_name": "structured_list",
+    "text": "Task: Proportional reasoning\nGiven: If 5 workers finish in 10 days, how many days for 2 workers?\nMethod: Maintain constant ratio\nAnswer: 25"
+  },
+  {
+    "concept_id": 2,
+    "form_id": 0,
+    "concept_name": "arith_proportional",
+    "form_name": "en_prose",
+    "text": "If 8 liters fill 2 tanks, how many liters for 5 tanks? Using proportional reasoning, if the ratio is maintained, the answer is 20."
+  },
+  {
+    "concept_id": 2,
+    "form_id": 1,
+    "concept_name": "arith_proportional",
+    "form_name": "zh_prose",
+    "text": "如果8升液体能装满2个罐子，5个罐子需要多少升？按比例计算，答案是 20 升。"
+  },
+  {
+    "concept_id": 2,
+    "form_id": 2,
+    "concept_name": "arith_proportional",
+    "form_name": "fr_prose",
+    "text": "If 8 liters fill 2 tanks, how many liters for 5 tanks? Par raisonnement proportionnel, si le rapport est maintenu, la réponse est 20."
+  },
+  {
+    "concept_id": 2,
+    "form_id": 3,
+    "concept_name": "arith_proportional",
+    "form_name": "py_code",
+    "text": "# Direct proportion\nunit = 8 / 2\nresult = unit * 5\nassert result == 20"
+  },
+  {
+    "concept_id": 2,
+    "form_id": 4,
+    "concept_name": "arith_proportional",
+    "form_name": "math_notation",
+    "text": "Let v = volume per tank = 8/2 = 4 L. For 5 tanks: 5v = 20 L."
+  },
+  {
+    "concept_id": 2,
+    "form_id": 5,
+    "concept_name": "arith_proportional",
+    "form_name": "structured_list",
+    "text": "Task: Proportional reasoning\nGiven: If 8 liters fill 2 tanks, how many liters for 5 tanks?\nMethod: Maintain constant ratio\nAnswer: 20"
+  },
+  {
+    "concept_id": 3,
+    "form_id": 0,
+    "concept_name": "arith_gcd",
+    "form_name": "en_prose",
+    "text": "To find the greatest common divisor of 48 and 18, apply the Euclidean algorithm: repeatedly divide the larger number by the smaller and take the remainder, until the remainder is zero. The last non-zero remainder is the GCD, which is 6."
+  },
+  {
+    "concept_id": 3,
+    "form_id": 1,
+    "concept_name": "arith_gcd",
+    "form_name": "zh_prose",
+    "text": "求 48 和 18 的最大公约数，使用辗转相除法：用较大数除以较小数取余数，重复直到余数为零。最后一个非零余数即为最大公约数 6。"
+  },
+  {
+    "concept_id": 3,
+    "form_id": 2,
+    "concept_name": "arith_gcd",
+    "form_name": "fr_prose",
+    "text": "Pour trouver le PGCD de 48 et 18, appliquez l'algorithme d'Euclide : divisez successivement le plus grand par le plus petit en prenant le reste, jusqu'à obtenir un reste nul. Le dernier reste non nul est le PGCD, soit 6."
+  },
+  {
+    "concept_id": 3,
+    "form_id": 3,
+    "concept_name": "arith_gcd",
+    "form_name": "py_code",
+    "text": "# Euclidean algorithm for GCD\ndef gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\nassert gcd(48, 18) == 6"
+  },
+  {
+    "concept_id": 3,
+    "form_id": 4,
+    "concept_name": "arith_gcd",
+    "form_name": "math_notation",
+    "text": "gcd(48, 18): 48 = 18 × 2 + 12; continue until remainder = 0. gcd(48, 18) = 6."
+  },
+  {
+    "concept_id": 3,
+    "form_id": 5,
+    "concept_name": "arith_gcd",
+    "form_name": "structured_list",
+    "text": "Task: Greatest common divisor\nInput: a=48, b=18\nAlgorithm: Euclidean (repeated division)\nResult: gcd(48,18) = 6"
+  },
+  {
+    "concept_id": 3,
+    "form_id": 0,
+    "concept_name": "arith_gcd",
+    "form_name": "en_prose",
+    "text": "To find the greatest common divisor of 56 and 42, apply the Euclidean algorithm: repeatedly divide the larger number by the smaller and take the remainder, until the remainder is zero. The last non-zero remainder is the GCD, which is 14."
+  },
+  {
+    "concept_id": 3,
+    "form_id": 1,
+    "concept_name": "arith_gcd",
+    "form_name": "zh_prose",
+    "text": "求 56 和 42 的最大公约数，使用辗转相除法：用较大数除以较小数取余数，重复直到余数为零。最后一个非零余数即为最大公约数 14。"
+  },
+  {
+    "concept_id": 3,
+    "form_id": 2,
+    "concept_name": "arith_gcd",
+    "form_name": "fr_prose",
+    "text": "Pour trouver le PGCD de 56 et 42, appliquez l'algorithme d'Euclide : divisez successivement le plus grand par le plus petit en prenant le reste, jusqu'à obtenir un reste nul. Le dernier reste non nul est le PGCD, soit 14."
+  },
+  {
+    "concept_id": 3,
+    "form_id": 3,
+    "concept_name": "arith_gcd",
+    "form_name": "py_code",
+    "text": "# Euclidean algorithm for GCD\ndef gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\nassert gcd(56, 42) == 14"
+  },
+  {
+    "concept_id": 3,
+    "form_id": 4,
+    "concept_name": "arith_gcd",
+    "form_name": "math_notation",
+    "text": "gcd(56, 42): 56 = 42 × 1 + 14; continue until remainder = 0. gcd(56, 42) = 14."
+  },
+  {
+    "concept_id": 3,
+    "form_id": 5,
+    "concept_name": "arith_gcd",
+    "form_name": "structured_list",
+    "text": "Task: Greatest common divisor\nInput: a=56, b=42\nAlgorithm: Euclidean (repeated division)\nResult: gcd(56,42) = 14"
+  },
+  {
+    "concept_id": 3,
+    "form_id": 0,
+    "concept_name": "arith_gcd",
+    "form_name": "en_prose",
+    "text": "To find the greatest common divisor of 105 and 30, apply the Euclidean algorithm: repeatedly divide the larger number by the smaller and take the remainder, until the remainder is zero. The last non-zero remainder is the GCD, which is 15."
+  },
+  {
+    "concept_id": 3,
+    "form_id": 1,
+    "concept_name": "arith_gcd",
+    "form_name": "zh_prose",
+    "text": "求 105 和 30 的最大公约数，使用辗转相除法：用较大数除以较小数取余数，重复直到余数为零。最后一个非零余数即为最大公约数 15。"
+  },
+  {
+    "concept_id": 3,
+    "form_id": 2,
+    "concept_name": "arith_gcd",
+    "form_name": "fr_prose",
+    "text": "Pour trouver le PGCD de 105 et 30, appliquez l'algorithme d'Euclide : divisez successivement le plus grand par le plus petit en prenant le reste, jusqu'à obtenir un reste nul. Le dernier reste non nul est le PGCD, soit 15."
+  },
+  {
+    "concept_id": 3,
+    "form_id": 3,
+    "concept_name": "arith_gcd",
+    "form_name": "py_code",
+    "text": "# Euclidean algorithm for GCD\ndef gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\nassert gcd(105, 30) == 15"
+  },
+  {
+    "concept_id": 3,
+    "form_id": 4,
+    "concept_name": "arith_gcd",
+    "form_name": "math_notation",
+    "text": "gcd(105, 30): 105 = 30 × 3 + 15; continue until remainder = 0. gcd(105, 30) = 15."
+  },
+  {
+    "concept_id": 3,
+    "form_id": 5,
+    "concept_name": "arith_gcd",
+    "form_name": "structured_list",
+    "text": "Task: Greatest common divisor\nInput: a=105, b=30\nAlgorithm: Euclidean (repeated division)\nResult: gcd(105,30) = 15"
+  },
+  {
+    "concept_id": 4,
+    "form_id": 0,
+    "concept_name": "logic_syllogism",
+    "form_name": "en_prose",
+    "text": "All mammals are warm-blooded. All dogs are mammals. By the rules of categorical syllogism, we can conclude: Therefore all dogs are warm-blooded. This follows from the transitivity of the 'all...are...' relation."
+  },
+  {
+    "concept_id": 4,
+    "form_id": 1,
+    "concept_name": "logic_syllogism",
+    "form_name": "zh_prose",
+    "text": "所有哺乳动物都是温血动物。所有狗都是哺乳动物。根据三段论推理规则，所有狗都是温血动物。这是由\"所有...是...\"关系的传递性得出的。"
+  },
+  {
+    "concept_id": 4,
+    "form_id": 2,
+    "concept_name": "logic_syllogism",
+    "form_name": "fr_prose",
+    "text": "Tous les mammifères sont à sang chaud. Tous les chiens sont des mammifères. Par syllogisme catégorique, tous les chiens sont à sang chaud."
+  },
+  {
+    "concept_id": 4,
+    "form_id": 3,
+    "concept_name": "logic_syllogism",
+    "form_name": "py_code",
+    "text": "# Categorical syllogism\n# Premise 1: All mammals are warm-blooded\n# Premise 2: All dogs are mammals\ndef check_syllogism(category_A, category_B, category_C):\n    # If all A are B, and all B are C, then all A are C\n    return category_A.issubset(category_B) and category_B.issubset(category_C)"
+  },
+  {
+    "concept_id": 4,
+    "form_id": 4,
+    "concept_name": "logic_syllogism",
+    "form_name": "math_notation",
+    "text": "Let A ⊆ B (Premise 1: All mammals are warm-blooded). Let C ⊆ A (Premise 2: All dogs are mammals). By transitivity of ⊆: C ⊆ B. ∴ Therefore all dogs are warm-blooded."
+  },
+  {
+    "concept_id": 4,
+    "form_id": 5,
+    "concept_name": "logic_syllogism",
+    "form_name": "structured_list",
+    "text": "Task: Categorical syllogism\nPremise 1: All mammals are warm-blooded\nPremise 2: All dogs are mammals\nRule: If A ⊆ B and B ⊆ C, then A ⊆ C\nConclusion: Therefore all dogs are warm-blooded\nValid: True"
+  },
+  {
+    "concept_id": 4,
+    "form_id": 0,
+    "concept_name": "logic_syllogism",
+    "form_name": "en_prose",
+    "text": "All roses are flowers. All flowers need water. By the rules of categorical syllogism, we can conclude: Therefore all roses need water. This follows from the transitivity of the 'all...are...' relation."
+  },
+  {
+    "concept_id": 4,
+    "form_id": 1,
+    "concept_name": "logic_syllogism",
+    "form_name": "zh_prose",
+    "text": "所有玫瑰都是花。所有花都需要水。根据三段论推理规则，所有玫瑰都需要水。"
+  },
+  {
+    "concept_id": 4,
+    "form_id": 2,
+    "concept_name": "logic_syllogism",
+    "form_name": "fr_prose",
+    "text": "Toutes les roses sont des fleurs. Toutes les fleurs ont besoin d'eau. Donc, toutes les roses ont besoin d'eau."
+  },
+  {
+    "concept_id": 4,
+    "form_id": 3,
+    "concept_name": "logic_syllogism",
+    "form_name": "py_code",
+    "text": "# Categorical syllogism\n# Premise 1: All roses are flowers\n# Premise 2: All flowers need water\ndef check_syllogism(category_A, category_B, category_C):\n    # If all A are B, and all B are C, then all A are C\n    return category_A.issubset(category_B) and category_B.issubset(category_C)"
+  },
+  {
+    "concept_id": 4,
+    "form_id": 4,
+    "concept_name": "logic_syllogism",
+    "form_name": "math_notation",
+    "text": "Let A ⊆ B (Premise 1: All roses are flowers). Let C ⊆ A (Premise 2: All flowers need water). By transitivity of ⊆: C ⊆ B. ∴ Therefore all roses need water."
+  },
+  {
+    "concept_id": 4,
+    "form_id": 5,
+    "concept_name": "logic_syllogism",
+    "form_name": "structured_list",
+    "text": "Task: Categorical syllogism\nPremise 1: All roses are flowers\nPremise 2: All flowers need water\nRule: If A ⊆ B and B ⊆ C, then A ⊆ C\nConclusion: Therefore all roses need water\nValid: True"
+  },
+  {
+    "concept_id": 4,
+    "form_id": 0,
+    "concept_name": "logic_syllogism",
+    "form_name": "en_prose",
+    "text": "Some birds can fly. All eagles are birds. By the rules of categorical syllogism, we can conclude: Therefore some eagles can fly. This follows from the transitivity of the 'all...are...' relation."
+  },
+  {
+    "concept_id": 4,
+    "form_id": 1,
+    "concept_name": "logic_syllogism",
+    "form_name": "zh_prose",
+    "text": "有些鸟会飞。所有鹰都是鸟。根据三段论推理规则，有些鹰会飞。"
+  },
+  {
+    "concept_id": 4,
+    "form_id": 2,
+    "concept_name": "logic_syllogism",
+    "form_name": "fr_prose",
+    "text": "Certains oiseaux peuvent voler. Tous les aigles sont des oiseaux. Donc, certains aigles peuvent voler."
+  },
+  {
+    "concept_id": 4,
+    "form_id": 3,
+    "concept_name": "logic_syllogism",
+    "form_name": "py_code",
+    "text": "# Categorical syllogism\n# Premise 1: Some birds can fly\n# Premise 2: All eagles are birds\ndef check_syllogism(category_A, category_B, category_C):\n    # If all A are B, and all B are C, then all A are C\n    return category_A.issubset(category_B) and category_B.issubset(category_C)"
+  },
+  {
+    "concept_id": 4,
+    "form_id": 4,
+    "concept_name": "logic_syllogism",
+    "form_name": "math_notation",
+    "text": "Let A ⊆ B (Premise 1: Some birds can fly). Let C ⊆ A (Premise 2: All eagles are birds). By transitivity of ⊆: C ⊆ B. ∴ Therefore some eagles can fly."
+  },
+  {
+    "concept_id": 4,
+    "form_id": 5,
+    "concept_name": "logic_syllogism",
+    "form_name": "structured_list",
+    "text": "Task: Categorical syllogism\nPremise 1: Some birds can fly\nPremise 2: All eagles are birds\nRule: If A ⊆ B and B ⊆ C, then A ⊆ C\nConclusion: Therefore some eagles can fly\nValid: True"
+  },
+  {
+    "concept_id": 5,
+    "form_id": 0,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "en_prose",
+    "text": "If it rains, the ground is wet. It rains. Therefore the ground is wet. This is an application of modus ponens: given P → Q and P, we conclude Q."
+  },
+  {
+    "concept_id": 5,
+    "form_id": 1,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "zh_prose",
+    "text": "如果下雨，地面会湿。现在下雨了。根据肯定前件律（假言推理），地面一定是湿的。"
+  },
+  {
+    "concept_id": 5,
+    "form_id": 2,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "fr_prose",
+    "text": "S'il pleut, le sol est mouillé. Il pleut. Par modus ponens, le sol est mouillé."
+  },
+  {
+    "concept_id": 5,
+    "form_id": 3,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "py_code",
+    "text": "# Modus ponens: P -> Q, P |- Q\ndef modus_ponens(p_implies_q, p):\n    if p and p_implies_q:\n        return True  # Q must be true\n    return None\nassert modus_ponens(True, True) == True"
+  },
+  {
+    "concept_id": 5,
+    "form_id": 4,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "math_notation",
+    "text": "Given: P → Q (conditional). Given: P (antecedent holds). By modus ponens: ∴ Q."
+  },
+  {
+    "concept_id": 5,
+    "form_id": 5,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "structured_list",
+    "text": "Task: Modus ponens\nRule: P → Q\nFact: P is true\nInference: Modus ponens (affirming the antecedent)\nConclusion: Q is true\nValid: True"
+  },
+  {
+    "concept_id": 5,
+    "form_id": 0,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "en_prose",
+    "text": "If x > 5, then x > 3. x = 7. Therefore x > 3. This is an application of modus ponens: given P → Q and P, we conclude Q."
+  },
+  {
+    "concept_id": 5,
+    "form_id": 1,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "zh_prose",
+    "text": "如果 x > 5，则 x > 3。已知 x = 7（满足 x > 5）。根据肯定前件律，x > 3。"
+  },
+  {
+    "concept_id": 5,
+    "form_id": 2,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "fr_prose",
+    "text": "Si x > 5, alors x > 3. x = 7. Par modus ponens, x > 3."
+  },
+  {
+    "concept_id": 5,
+    "form_id": 3,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "py_code",
+    "text": "# Modus ponens: P -> Q, P |- Q\ndef modus_ponens(p_implies_q, p):\n    if p and p_implies_q:\n        return True  # Q must be true\n    return None\nassert modus_ponens(True, True) == True"
+  },
+  {
+    "concept_id": 5,
+    "form_id": 4,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "math_notation",
+    "text": "Given: P → Q (conditional). Given: P (antecedent holds). By modus ponens: ∴ Q."
+  },
+  {
+    "concept_id": 5,
+    "form_id": 5,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "structured_list",
+    "text": "Task: Modus ponens\nRule: P → Q\nFact: P is true\nInference: Modus ponens (affirming the antecedent)\nConclusion: Q is true\nValid: True"
+  },
+  {
+    "concept_id": 5,
+    "form_id": 0,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "en_prose",
+    "text": "If the switch is on, the light is on. The switch is on. Therefore the light is on. This is an application of modus ponens: given P → Q and P, we conclude Q."
+  },
+  {
+    "concept_id": 5,
+    "form_id": 1,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "zh_prose",
+    "text": "如果开关打开，灯就亮。开关已打开。根据肯定前件律，灯一定亮着。"
+  },
+  {
+    "concept_id": 5,
+    "form_id": 2,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "fr_prose",
+    "text": "Si l'interrupteur est allumé, la lumière est allumée. L'interrupteur est allumé. Donc, la lumière est allumée."
+  },
+  {
+    "concept_id": 5,
+    "form_id": 3,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "py_code",
+    "text": "# Modus ponens: P -> Q, P |- Q\ndef modus_ponens(p_implies_q, p):\n    if p and p_implies_q:\n        return True  # Q must be true\n    return None\nassert modus_ponens(True, True) == True"
+  },
+  {
+    "concept_id": 5,
+    "form_id": 4,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "math_notation",
+    "text": "Given: P → Q (conditional). Given: P (antecedent holds). By modus ponens: ∴ Q."
+  },
+  {
+    "concept_id": 5,
+    "form_id": 5,
+    "concept_name": "logic_modus_ponens",
+    "form_name": "structured_list",
+    "text": "Task: Modus ponens\nRule: P → Q\nFact: P is true\nInference: Modus ponens (affirming the antecedent)\nConclusion: Q is true\nValid: True"
+  },
+  {
+    "concept_id": 6,
+    "form_id": 0,
+    "concept_name": "logic_contrapositive",
+    "form_name": "en_prose",
+    "text": "If it rains then the ground is wet. The ground is not wet. Therefore it does not rain. This uses the contrapositive: P → Q is logically equivalent to ¬Q → ¬P."
+  },
+  {
+    "concept_id": 6,
+    "form_id": 1,
+    "concept_name": "logic_contrapositive",
+    "form_name": "zh_prose",
+    "text": "如果下雨则地面湿。地面没有湿。由逆否命题（P→Q 等价于 ¬Q→¬P），因此没有下雨。"
+  },
+  {
+    "concept_id": 6,
+    "form_id": 2,
+    "concept_name": "logic_contrapositive",
+    "form_name": "fr_prose",
+    "text": "Si il pleut alors le sol est mouillé. Le sol n'est pas mouillé. Par contraposée, il ne pleut pas."
+  },
+  {
+    "concept_id": 6,
+    "form_id": 3,
+    "concept_name": "logic_contrapositive",
+    "form_name": "py_code",
+    "text": "# Contrapositive: P -> Q equivalent to not Q -> not P\ndef contrapositive(p_implies_q, not_q):\n    if p_implies_q and not_q:\n        return True  # not P must hold\n    return None\nassert contrapositive(True, True) == True"
+  },
+  {
+    "concept_id": 6,
+    "form_id": 4,
+    "concept_name": "logic_contrapositive",
+    "form_name": "math_notation",
+    "text": "Given: P → Q. Contrapositive: ¬Q → ¬P. Given: ¬Q. ∴ ¬P."
+  },
+  {
+    "concept_id": 6,
+    "form_id": 5,
+    "concept_name": "logic_contrapositive",
+    "form_name": "structured_list",
+    "text": "Task: Contrapositive reasoning\nRule: P → Q\nEquivalent: ¬Q → ¬P\nFact: ¬Q (consequent is false)\nConclusion: ¬P (antecedent must be false)\nValid: True"
+  },
+  {
+    "concept_id": 6,
+    "form_id": 0,
+    "concept_name": "logic_contrapositive",
+    "form_name": "en_prose",
+    "text": "If x is prime and x>2, then x is odd. x is even. Therefore x is not prime or x<=2. This uses the contrapositive: P → Q is logically equivalent to ¬Q → ¬P."
+  },
+  {
+    "concept_id": 6,
+    "form_id": 1,
+    "concept_name": "logic_contrapositive",
+    "form_name": "zh_prose",
+    "text": "如果 x 是大于2的质数，则 x 是奇数。x 是偶数。由逆否命题，x 不是质数或 x ≤ 2。"
+  },
+  {
+    "concept_id": 6,
+    "form_id": 2,
+    "concept_name": "logic_contrapositive",
+    "form_name": "fr_prose",
+    "text": "Si x est premier et x>2, alors x est impair. x est pair. Par contraposée, x n'est pas premier ou x≤2."
+  },
+  {
+    "concept_id": 6,
+    "form_id": 3,
+    "concept_name": "logic_contrapositive",
+    "form_name": "py_code",
+    "text": "# Contrapositive: P -> Q equivalent to not Q -> not P\ndef contrapositive(p_implies_q, not_q):\n    if p_implies_q and not_q:\n        return True  # not P must hold\n    return None\nassert contrapositive(True, True) == True"
+  },
+  {
+    "concept_id": 6,
+    "form_id": 4,
+    "concept_name": "logic_contrapositive",
+    "form_name": "math_notation",
+    "text": "Given: P → Q. Contrapositive: ¬Q → ¬P. Given: ¬Q. ∴ ¬P."
+  },
+  {
+    "concept_id": 6,
+    "form_id": 5,
+    "concept_name": "logic_contrapositive",
+    "form_name": "structured_list",
+    "text": "Task: Contrapositive reasoning\nRule: P → Q\nEquivalent: ¬Q → ¬P\nFact: ¬Q (consequent is false)\nConclusion: ¬P (antecedent must be false)\nValid: True"
+  },
+  {
+    "concept_id": 6,
+    "form_id": 0,
+    "concept_name": "logic_contrapositive",
+    "form_name": "en_prose",
+    "text": "If the alarm sounds then there is danger. There is no danger. Therefore the alarm does not sound. This uses the contrapositive: P → Q is logically equivalent to ¬Q → ¬P."
+  },
+  {
+    "concept_id": 6,
+    "form_id": 1,
+    "concept_name": "logic_contrapositive",
+    "form_name": "zh_prose",
+    "text": "如果警报响则有危险。没有危险。由逆否命题，警报没有响。"
+  },
+  {
+    "concept_id": 6,
+    "form_id": 2,
+    "concept_name": "logic_contrapositive",
+    "form_name": "fr_prose",
+    "text": "Si l'alarme sonne alors il y a un danger. Il n'y a pas de danger. Par contraposée, l'alarme ne sonne pas."
+  },
+  {
+    "concept_id": 6,
+    "form_id": 3,
+    "concept_name": "logic_contrapositive",
+    "form_name": "py_code",
+    "text": "# Contrapositive: P -> Q equivalent to not Q -> not P\ndef contrapositive(p_implies_q, not_q):\n    if p_implies_q and not_q:\n        return True  # not P must hold\n    return None\nassert contrapositive(True, True) == True"
+  },
+  {
+    "concept_id": 6,
+    "form_id": 4,
+    "concept_name": "logic_contrapositive",
+    "form_name": "math_notation",
+    "text": "Given: P → Q. Contrapositive: ¬Q → ¬P. Given: ¬Q. ∴ ¬P."
+  },
+  {
+    "concept_id": 6,
+    "form_id": 5,
+    "concept_name": "logic_contrapositive",
+    "form_name": "structured_list",
+    "text": "Task: Contrapositive reasoning\nRule: P → Q\nEquivalent: ¬Q → ¬P\nFact: ¬Q (consequent is false)\nConclusion: ¬P (antecedent must be false)\nValid: True"
+  },
+  {
+    "concept_id": 7,
+    "form_id": 0,
+    "concept_name": "logic_negation",
+    "form_name": "en_prose",
+    "text": "Not (A and B) is equivalent to (not A) or (not B) This is De Morgan's law, which governs how negation distributes over conjunction and disjunction."
+  },
+  {
+    "concept_id": 7,
+    "form_id": 1,
+    "concept_name": "logic_negation",
+    "form_name": "zh_prose",
+    "text": "非(A且B) 等价于 (非A)或(非B)。这是德摩根定律：否定分配到合取上时，合取变为析取。"
+  },
+  {
+    "concept_id": 7,
+    "form_id": 2,
+    "concept_name": "logic_negation",
+    "form_name": "fr_prose",
+    "text": "Non(A et B) est équivalent à (non A) ou (non B). C'est la loi de De Morgan."
+  },
+  {
+    "concept_id": 7,
+    "form_id": 3,
+    "concept_name": "logic_negation",
+    "form_name": "py_code",
+    "text": "# De Morgan's Laws\n# not (A and B) == (not A) or (not B)\n# not (A or B) == (not A) and (not B)\nassert not (True and False) == (not True) or (not False)"
+  },
+  {
+    "concept_id": 7,
+    "form_id": 4,
+    "concept_name": "logic_negation",
+    "form_name": "math_notation",
+    "text": "De Morgan's Laws: ¬(A ∧ B) ≡ ¬A ∨ ¬B; ¬(A ∨ B) ≡ ¬A ∧ ¬B."
+  },
+  {
+    "concept_id": 7,
+    "form_id": 5,
+    "concept_name": "logic_negation",
+    "form_name": "structured_list",
+    "text": "Task: De Morgan's Law\nRule 1: ¬(A ∧ B) = ¬A ∨ ¬B\nRule 2: ¬(A ∨ B) = ¬A ∧ ¬B\nApplication: Negation distributes over logical connectives, swapping ∧ and ∨"
+  },
+  {
+    "concept_id": 7,
+    "form_id": 0,
+    "concept_name": "logic_negation",
+    "form_name": "en_prose",
+    "text": "Not (P or Q) is equivalent to (not P) and (not Q) This is De Morgan's law, which governs how negation distributes over conjunction and disjunction."
+  },
+  {
+    "concept_id": 7,
+    "form_id": 1,
+    "concept_name": "logic_negation",
+    "form_name": "zh_prose",
+    "text": "非(P或Q) 等价于 (非P)且(非Q)。这是德摩根定律：否定分配到析取上时，析取变为合取。"
+  },
+  {
+    "concept_id": 7,
+    "form_id": 2,
+    "concept_name": "logic_negation",
+    "form_name": "fr_prose",
+    "text": "Non(P ou Q) est équivalent à (non P) et (non Q). C'est la loi de De Morgan."
+  },
+  {
+    "concept_id": 7,
+    "form_id": 3,
+    "concept_name": "logic_negation",
+    "form_name": "py_code",
+    "text": "# De Morgan's Laws\n# not (A and B) == (not A) or (not B)\n# not (A or B) == (not A) and (not B)\nassert not (True and False) == (not True) or (not False)"
+  },
+  {
+    "concept_id": 7,
+    "form_id": 4,
+    "concept_name": "logic_negation",
+    "form_name": "math_notation",
+    "text": "De Morgan's Laws: ¬(A ∧ B) ≡ ¬A ∨ ¬B; ¬(A ∨ B) ≡ ¬A ∧ ¬B."
+  },
+  {
+    "concept_id": 7,
+    "form_id": 5,
+    "concept_name": "logic_negation",
+    "form_name": "structured_list",
+    "text": "Task: De Morgan's Law\nRule 1: ¬(A ∧ B) = ¬A ∨ ¬B\nRule 2: ¬(A ∨ B) = ¬A ∧ ¬B\nApplication: Negation distributes over logical connectives, swapping ∧ and ∨"
+  },
+  {
+    "concept_id": 7,
+    "form_id": 0,
+    "concept_name": "logic_negation",
+    "form_name": "en_prose",
+    "text": "Not (A and (not B)) is equivalent to (not A) or B This is De Morgan's law, which governs how negation distributes over conjunction and disjunction."
+  },
+  {
+    "concept_id": 7,
+    "form_id": 1,
+    "concept_name": "logic_negation",
+    "form_name": "zh_prose",
+    "text": "非(A且(非B)) 等价于 (非A)或B。先对合取应用德摩根定律，再对双重否定化简。"
+  },
+  {
+    "concept_id": 7,
+    "form_id": 2,
+    "concept_name": "logic_negation",
+    "form_name": "fr_prose",
+    "text": "Non(A et (non B)) est équivalent à (non A) ou B. Par la loi de De Morgan et double négation."
+  },
+  {
+    "concept_id": 7,
+    "form_id": 3,
+    "concept_name": "logic_negation",
+    "form_name": "py_code",
+    "text": "# De Morgan's Laws\n# not (A and B) == (not A) or (not B)\n# not (A or B) == (not A) and (not B)\nassert not (True and False) == (not True) or (not False)"
+  },
+  {
+    "concept_id": 7,
+    "form_id": 4,
+    "concept_name": "logic_negation",
+    "form_name": "math_notation",
+    "text": "De Morgan's Laws: ¬(A ∧ B) ≡ ¬A ∨ ¬B; ¬(A ∨ B) ≡ ¬A ∧ ¬B."
+  },
+  {
+    "concept_id": 7,
+    "form_id": 5,
+    "concept_name": "logic_negation",
+    "form_name": "structured_list",
+    "text": "Task: De Morgan's Law\nRule 1: ¬(A ∧ B) = ¬A ∨ ¬B\nRule 2: ¬(A ∨ B) = ¬A ∧ ¬B\nApplication: Negation distributes over logical connectives, swapping ∧ and ∨"
+  },
+  {
+    "concept_id": 8,
+    "form_id": 0,
+    "concept_name": "rel_transitivity",
+    "form_name": "en_prose",
+    "text": "Alice is taller than Bob. Bob is taller than Carol. Who is tallest? By transitivity of the ordering relation, Alice is the answer."
+  },
+  {
+    "concept_id": 8,
+    "form_id": 1,
+    "concept_name": "rel_transitivity",
+    "form_name": "zh_prose",
+    "text": "Alice 比 Bob 高。Bob 比 Carol 高。由传递性，Alice 最高。"
+  },
+  {
+    "concept_id": 8,
+    "form_id": 2,
+    "concept_name": "rel_transitivity",
+    "form_name": "fr_prose",
+    "text": "Alice est plus grande que Bob. Bob est plus grand que Carol. Par transitivité, Alice est la plus grande."
+  },
+  {
+    "concept_id": 8,
+    "form_id": 3,
+    "concept_name": "rel_transitivity",
+    "form_name": "py_code",
+    "text": "# Transitive ordering\ndef find_max(comparisons):\n    # comparisons: list of (greater, lesser) tuples\n    # By transitivity: if a > b and b > c then a > c\n    all_items = set(x for pair in comparisons for x in pair)\n    for item in all_items:\n        if all(item != lesser for _, lesser in comparisons if _ == item) or \\\n           not any(item == lesser for _, lesser in comparisons):\n            if any(item == greater for greater, _ in comparisons):\n                return item  # 'Alice'"
+  },
+  {
+    "concept_id": 8,
+    "form_id": 4,
+    "concept_name": "rel_transitivity",
+    "form_name": "math_notation",
+    "text": "Given: a > b ∧ b > c. By transitivity of >: a > c. ∴ max(a,b,c) = a = Alice."
+  },
+  {
+    "concept_id": 8,
+    "form_id": 5,
+    "concept_name": "rel_transitivity",
+    "form_name": "structured_list",
+    "text": "Task: Transitive ordering\nRelation 1: A > B\nRelation 2: B > C\nRule: Transitivity (A > B ∧ B > C → A > C)\nConclusion: Maximum = Alice"
+  },
+  {
+    "concept_id": 8,
+    "form_id": 0,
+    "concept_name": "rel_transitivity",
+    "form_name": "en_prose",
+    "text": "X weighs more than Y. Y weighs more than Z. Which is heaviest? By transitivity of the ordering relation, X is the answer."
+  },
+  {
+    "concept_id": 8,
+    "form_id": 1,
+    "concept_name": "rel_transitivity",
+    "form_name": "zh_prose",
+    "text": "X 比 Y 重。Y 比 Z 重。由传递性，X 最重。"
+  },
+  {
+    "concept_id": 8,
+    "form_id": 2,
+    "concept_name": "rel_transitivity",
+    "form_name": "fr_prose",
+    "text": "X pèse plus que Y. Y pèse plus que Z. Par transitivité, X est le plus lourd."
+  },
+  {
+    "concept_id": 8,
+    "form_id": 3,
+    "concept_name": "rel_transitivity",
+    "form_name": "py_code",
+    "text": "# Transitive ordering\ndef find_max(comparisons):\n    # comparisons: list of (greater, lesser) tuples\n    # By transitivity: if a > b and b > c then a > c\n    all_items = set(x for pair in comparisons for x in pair)\n    for item in all_items:\n        if all(item != lesser for _, lesser in comparisons if _ == item) or \\\n           not any(item == lesser for _, lesser in comparisons):\n            if any(item == greater for greater, _ in comparisons):\n                return item  # 'X'"
+  },
+  {
+    "concept_id": 8,
+    "form_id": 4,
+    "concept_name": "rel_transitivity",
+    "form_name": "math_notation",
+    "text": "Given: a > b ∧ b > c. By transitivity of >: a > c. ∴ max(a,b,c) = a = X."
+  },
+  {
+    "concept_id": 8,
+    "form_id": 5,
+    "concept_name": "rel_transitivity",
+    "form_name": "structured_list",
+    "text": "Task: Transitive ordering\nRelation 1: A > B\nRelation 2: B > C\nRule: Transitivity (A > B ∧ B > C → A > C)\nConclusion: Maximum = X"
+  },
+  {
+    "concept_id": 8,
+    "form_id": 0,
+    "concept_name": "rel_transitivity",
+    "form_name": "en_prose",
+    "text": "Team A scored higher than Team B. Team B scored higher than Team C. Which team scored highest? By transitivity of the ordering relation, Team A is the answer."
+  },
+  {
+    "concept_id": 8,
+    "form_id": 1,
+    "concept_name": "rel_transitivity",
+    "form_name": "zh_prose",
+    "text": "A队得分高于B队。B队得分高于C队。由传递性，A队得分最高。"
+  },
+  {
+    "concept_id": 8,
+    "form_id": 2,
+    "concept_name": "rel_transitivity",
+    "form_name": "fr_prose",
+    "text": "L'équipe A a marqué plus que B. B a marqué plus que C. Par transitivité, l'équipe A a le plus marqué."
+  },
+  {
+    "concept_id": 8,
+    "form_id": 3,
+    "concept_name": "rel_transitivity",
+    "form_name": "py_code",
+    "text": "# Transitive ordering\ndef find_max(comparisons):\n    # comparisons: list of (greater, lesser) tuples\n    # By transitivity: if a > b and b > c then a > c\n    all_items = set(x for pair in comparisons for x in pair)\n    for item in all_items:\n        if all(item != lesser for _, lesser in comparisons if _ == item) or \\\n           not any(item == lesser for _, lesser in comparisons):\n            if any(item == greater for greater, _ in comparisons):\n                return item  # 'Team A'"
+  },
+  {
+    "concept_id": 8,
+    "form_id": 4,
+    "concept_name": "rel_transitivity",
+    "form_name": "math_notation",
+    "text": "Given: a > b ∧ b > c. By transitivity of >: a > c. ∴ max(a,b,c) = a = Team A."
+  },
+  {
+    "concept_id": 8,
+    "form_id": 5,
+    "concept_name": "rel_transitivity",
+    "form_name": "structured_list",
+    "text": "Task: Transitive ordering\nRelation 1: A > B\nRelation 2: B > C\nRule: Transitivity (A > B ∧ B > C → A > C)\nConclusion: Maximum = Team A"
+  },
+  {
+    "concept_id": 9,
+    "form_id": 0,
+    "concept_name": "rel_set_intersection",
+    "form_name": "en_prose",
+    "text": "A = {1,2,3,4,5}, B = {3,4,5,6,7}. What is A intersect B? The intersection contains only those elements present in both sets. The result is {3,4,5}."
+  },
+  {
+    "concept_id": 9,
+    "form_id": 1,
+    "concept_name": "rel_set_intersection",
+    "form_name": "zh_prose",
+    "text": "求两个集合的交集：找出同时属于两个集合的所有元素。结果为 {3,4,5}。"
+  },
+  {
+    "concept_id": 9,
+    "form_id": 2,
+    "concept_name": "rel_set_intersection",
+    "form_name": "fr_prose",
+    "text": "L'intersection contient uniquement les éléments présents dans les deux ensembles. Le résultat est {3,4,5}."
+  },
+  {
+    "concept_id": 9,
+    "form_id": 3,
+    "concept_name": "rel_set_intersection",
+    "form_name": "py_code",
+    "text": "A = {1,2,3,4,5}\nB = {3,4,5,6,7}\nresult = A & B  # intersection\n# result == {3,4,5}"
+  },
+  {
+    "concept_id": 9,
+    "form_id": 4,
+    "concept_name": "rel_set_intersection",
+    "form_name": "math_notation",
+    "text": "A ∩ B = { x | x ∈ A ∧ x ∈ B }. Result: {3,4,5}."
+  },
+  {
+    "concept_id": 9,
+    "form_id": 5,
+    "concept_name": "rel_set_intersection",
+    "form_name": "structured_list",
+    "text": "Task: Set intersection\nSet A: (given)\nSet B: (given)\nOperation: A ∩ B (elements in both)\nResult: {3,4,5}"
+  },
+  {
+    "concept_id": 9,
+    "form_id": 0,
+    "concept_name": "rel_set_intersection",
+    "form_name": "en_prose",
+    "text": "A = {red,blue,green}, B = {blue,yellow,green}. What is A intersect B? The intersection contains only those elements present in both sets. The result is {blue,green}."
+  },
+  {
+    "concept_id": 9,
+    "form_id": 1,
+    "concept_name": "rel_set_intersection",
+    "form_name": "zh_prose",
+    "text": "求两个集合的交集：找出同时属于两个集合的所有元素。结果为 {blue,green}。"
+  },
+  {
+    "concept_id": 9,
+    "form_id": 2,
+    "concept_name": "rel_set_intersection",
+    "form_name": "fr_prose",
+    "text": "L'intersection contient uniquement les éléments présents dans les deux ensembles. Le résultat est {blue,green}."
+  },
+  {
+    "concept_id": 9,
+    "form_id": 3,
+    "concept_name": "rel_set_intersection",
+    "form_name": "py_code",
+    "text": "A = {red,blue,green}\nB = {blue,yellow,green}\nresult = A & B  # intersection\n# result == {blue,green}"
+  },
+  {
+    "concept_id": 9,
+    "form_id": 4,
+    "concept_name": "rel_set_intersection",
+    "form_name": "math_notation",
+    "text": "A ∩ B = { x | x ∈ A ∧ x ∈ B }. Result: {blue,green}."
+  },
+  {
+    "concept_id": 9,
+    "form_id": 5,
+    "concept_name": "rel_set_intersection",
+    "form_name": "structured_list",
+    "text": "Task: Set intersection\nSet A: (given)\nSet B: (given)\nOperation: A ∩ B (elements in both)\nResult: {blue,green}"
+  },
+  {
+    "concept_id": 9,
+    "form_id": 0,
+    "concept_name": "rel_set_intersection",
+    "form_name": "en_prose",
+    "text": "A = {2,4,6,8}, B = {1,2,3,4}. What is A intersect B? The intersection contains only those elements present in both sets. The result is {2,4}."
+  },
+  {
+    "concept_id": 9,
+    "form_id": 1,
+    "concept_name": "rel_set_intersection",
+    "form_name": "zh_prose",
+    "text": "求两个集合的交集：找出同时属于两个集合的所有元素。结果为 {2,4}。"
+  },
+  {
+    "concept_id": 9,
+    "form_id": 2,
+    "concept_name": "rel_set_intersection",
+    "form_name": "fr_prose",
+    "text": "L'intersection contient uniquement les éléments présents dans les deux ensembles. Le résultat est {2,4}."
+  },
+  {
+    "concept_id": 9,
+    "form_id": 3,
+    "concept_name": "rel_set_intersection",
+    "form_name": "py_code",
+    "text": "A = {2,4,6,8}\nB = {1,2,3,4}\nresult = A & B  # intersection\n# result == {2,4}"
+  },
+  {
+    "concept_id": 9,
+    "form_id": 4,
+    "concept_name": "rel_set_intersection",
+    "form_name": "math_notation",
+    "text": "A ∩ B = { x | x ∈ A ∧ x ∈ B }. Result: {2,4}."
+  },
+  {
+    "concept_id": 9,
+    "form_id": 5,
+    "concept_name": "rel_set_intersection",
+    "form_name": "structured_list",
+    "text": "Task: Set intersection\nSet A: (given)\nSet B: (given)\nOperation: A ∩ B (elements in both)\nResult: {2,4}"
+  },
+  {
+    "concept_id": 10,
+    "form_id": 0,
+    "concept_name": "rel_set_difference",
+    "form_name": "en_prose",
+    "text": "A = {1,2,3,4,5}, B = {3,4,5,6,7}. What is A minus B? The set difference A minus B contains elements that are in A but not in B. The result is {1,2}."
+  },
+  {
+    "concept_id": 10,
+    "form_id": 1,
+    "concept_name": "rel_set_difference",
+    "form_name": "zh_prose",
+    "text": "集合差 A \\ B 包含属于 A 但不属于 B 的元素。结果为 {1,2}。"
+  },
+  {
+    "concept_id": 10,
+    "form_id": 2,
+    "concept_name": "rel_set_difference",
+    "form_name": "fr_prose",
+    "text": "La différence A moins B contient les éléments de A qui ne sont pas dans B. Le résultat est {1,2}."
+  },
+  {
+    "concept_id": 10,
+    "form_id": 3,
+    "concept_name": "rel_set_difference",
+    "form_name": "py_code",
+    "text": "A = {1,2,3,4,5}\nB = {3,4,5,6,7}\nresult = A - B  # set difference\n# result == {1,2}"
+  },
+  {
+    "concept_id": 10,
+    "form_id": 4,
+    "concept_name": "rel_set_difference",
+    "form_name": "math_notation",
+    "text": "A \\ B = { x | x ∈ A ∧ x ∉ B }. Result: {1,2}."
+  },
+  {
+    "concept_id": 10,
+    "form_id": 5,
+    "concept_name": "rel_set_difference",
+    "form_name": "structured_list",
+    "text": "Task: Set difference\nSet A: (given)\nSet B: (given)\nOperation: A \\ B (elements in A not in B)\nResult: {1,2}"
+  },
+  {
+    "concept_id": 10,
+    "form_id": 0,
+    "concept_name": "rel_set_difference",
+    "form_name": "en_prose",
+    "text": "A = {a,b,c,d}, B = {c,d,e,f}. What is A minus B? The set difference A minus B contains elements that are in A but not in B. The result is {a,b}."
+  },
+  {
+    "concept_id": 10,
+    "form_id": 1,
+    "concept_name": "rel_set_difference",
+    "form_name": "zh_prose",
+    "text": "集合差 A \\ B 包含属于 A 但不属于 B 的元素。结果为 {a,b}。"
+  },
+  {
+    "concept_id": 10,
+    "form_id": 2,
+    "concept_name": "rel_set_difference",
+    "form_name": "fr_prose",
+    "text": "La différence A moins B contient les éléments de A qui ne sont pas dans B. Le résultat est {a,b}."
+  },
+  {
+    "concept_id": 10,
+    "form_id": 3,
+    "concept_name": "rel_set_difference",
+    "form_name": "py_code",
+    "text": "A = {a,b,c,d}\nB = {c,d,e,f}\nresult = A - B  # set difference\n# result == {a,b}"
+  },
+  {
+    "concept_id": 10,
+    "form_id": 4,
+    "concept_name": "rel_set_difference",
+    "form_name": "math_notation",
+    "text": "A \\ B = { x | x ∈ A ∧ x ∉ B }. Result: {a,b}."
+  },
+  {
+    "concept_id": 10,
+    "form_id": 5,
+    "concept_name": "rel_set_difference",
+    "form_name": "structured_list",
+    "text": "Task: Set difference\nSet A: (given)\nSet B: (given)\nOperation: A \\ B (elements in A not in B)\nResult: {a,b}"
+  },
+  {
+    "concept_id": 10,
+    "form_id": 0,
+    "concept_name": "rel_set_difference",
+    "form_name": "en_prose",
+    "text": "A = {10,20,30,40}, B = {20,40,60}. What is A minus B? The set difference A minus B contains elements that are in A but not in B. The result is {10,30}."
+  },
+  {
+    "concept_id": 10,
+    "form_id": 1,
+    "concept_name": "rel_set_difference",
+    "form_name": "zh_prose",
+    "text": "集合差 A \\ B 包含属于 A 但不属于 B 的元素。结果为 {10,30}。"
+  },
+  {
+    "concept_id": 10,
+    "form_id": 2,
+    "concept_name": "rel_set_difference",
+    "form_name": "fr_prose",
+    "text": "La différence A moins B contient les éléments de A qui ne sont pas dans B. Le résultat est {10,30}."
+  },
+  {
+    "concept_id": 10,
+    "form_id": 3,
+    "concept_name": "rel_set_difference",
+    "form_name": "py_code",
+    "text": "A = {10,20,30,40}\nB = {20,40,60}\nresult = A - B  # set difference\n# result == {10,30}"
+  },
+  {
+    "concept_id": 10,
+    "form_id": 4,
+    "concept_name": "rel_set_difference",
+    "form_name": "math_notation",
+    "text": "A \\ B = { x | x ∈ A ∧ x ∉ B }. Result: {10,30}."
+  },
+  {
+    "concept_id": 10,
+    "form_id": 5,
+    "concept_name": "rel_set_difference",
+    "form_name": "structured_list",
+    "text": "Task: Set difference\nSet A: (given)\nSet B: (given)\nOperation: A \\ B (elements in A not in B)\nResult: {10,30}"
+  },
+  {
+    "concept_id": 11,
+    "form_id": 0,
+    "concept_name": "rel_function_composition",
+    "form_name": "en_prose",
+    "text": "f(x) = 2x + 1, g(x) = x - 3. What is f(g(5))?. To compute f(g(x)), first apply g, then apply f to the result. The answer is 5."
+  },
+  {
+    "concept_id": 11,
+    "form_id": 1,
+    "concept_name": "rel_function_composition",
+    "form_name": "zh_prose",
+    "text": "f(x) = 2x + 1, g(x) = x - 3。What is f(g(5))?。计算 f(g(x))：先对 x 应用 g，再对结果应用 f。答案是 5。"
+  },
+  {
+    "concept_id": 11,
+    "form_id": 2,
+    "concept_name": "rel_function_composition",
+    "form_name": "fr_prose",
+    "text": "f(x) = 2x + 1, g(x) = x - 3. What is f(g(5))?. Pour calculer f(g(x)), appliquez d'abord g, puis f au résultat. La réponse est 5."
+  },
+  {
+    "concept_id": 11,
+    "form_id": 3,
+    "concept_name": "rel_function_composition",
+    "form_name": "py_code",
+    "text": "# Function composition: (f ∘ g)(x) = f(g(x))\n# f(x) = 2x + 1, g(x) = x - 3; What is f(g(5))?\ndef compose(f, g, x):\n    return f(g(x))\n# Result: 5"
+  },
+  {
+    "concept_id": 11,
+    "form_id": 4,
+    "concept_name": "rel_function_composition",
+    "form_name": "math_notation",
+    "text": "(f ∘ g)(x) = f(g(x)). f(x) = 2x + 1, g(x) = x - 3; What is f(g(5))?. Result = 5."
+  },
+  {
+    "concept_id": 11,
+    "form_id": 5,
+    "concept_name": "rel_function_composition",
+    "form_name": "structured_list",
+    "text": "Task: Function composition\nFunction f: f(x) = 2x + 1, g(x) = x - 3\nFunction g: What is f(g(5))?\nStep 1: Compute g(x)\nStep 2: Apply f to result\nResult: 5"
+  },
+  {
+    "concept_id": 11,
+    "form_id": 0,
+    "concept_name": "rel_function_composition",
+    "form_name": "en_prose",
+    "text": "f(x) = x^2, g(x) = x + 1. What is f(g(3))?. To compute f(g(x)), first apply g, then apply f to the result. The answer is 16."
+  },
+  {
+    "concept_id": 11,
+    "form_id": 1,
+    "concept_name": "rel_function_composition",
+    "form_name": "zh_prose",
+    "text": "f(x) = x^2, g(x) = x + 1。What is f(g(3))?。计算 f(g(x))：先对 x 应用 g，再对结果应用 f。答案是 16。"
+  },
+  {
+    "concept_id": 11,
+    "form_id": 2,
+    "concept_name": "rel_function_composition",
+    "form_name": "fr_prose",
+    "text": "f(x) = x^2, g(x) = x + 1. What is f(g(3))?. Pour calculer f(g(x)), appliquez d'abord g, puis f au résultat. La réponse est 16."
+  },
+  {
+    "concept_id": 11,
+    "form_id": 3,
+    "concept_name": "rel_function_composition",
+    "form_name": "py_code",
+    "text": "# Function composition: (f ∘ g)(x) = f(g(x))\n# f(x) = x^2, g(x) = x + 1; What is f(g(3))?\ndef compose(f, g, x):\n    return f(g(x))\n# Result: 16"
+  },
+  {
+    "concept_id": 11,
+    "form_id": 4,
+    "concept_name": "rel_function_composition",
+    "form_name": "math_notation",
+    "text": "(f ∘ g)(x) = f(g(x)). f(x) = x^2, g(x) = x + 1; What is f(g(3))?. Result = 16."
+  },
+  {
+    "concept_id": 11,
+    "form_id": 5,
+    "concept_name": "rel_function_composition",
+    "form_name": "structured_list",
+    "text": "Task: Function composition\nFunction f: f(x) = x^2, g(x) = x + 1\nFunction g: What is f(g(3))?\nStep 1: Compute g(x)\nStep 2: Apply f to result\nResult: 16"
+  },
+  {
+    "concept_id": 11,
+    "form_id": 0,
+    "concept_name": "rel_function_composition",
+    "form_name": "en_prose",
+    "text": "f(x) = 3x, g(x) = x/2 + 4. What is f(g(6))?. To compute f(g(x)), first apply g, then apply f to the result. The answer is 21."
+  },
+  {
+    "concept_id": 11,
+    "form_id": 1,
+    "concept_name": "rel_function_composition",
+    "form_name": "zh_prose",
+    "text": "f(x) = 3x, g(x) = x/2 + 4。What is f(g(6))?。计算 f(g(x))：先对 x 应用 g，再对结果应用 f。答案是 21。"
+  },
+  {
+    "concept_id": 11,
+    "form_id": 2,
+    "concept_name": "rel_function_composition",
+    "form_name": "fr_prose",
+    "text": "f(x) = 3x, g(x) = x/2 + 4. What is f(g(6))?. Pour calculer f(g(x)), appliquez d'abord g, puis f au résultat. La réponse est 21."
+  },
+  {
+    "concept_id": 11,
+    "form_id": 3,
+    "concept_name": "rel_function_composition",
+    "form_name": "py_code",
+    "text": "# Function composition: (f ∘ g)(x) = f(g(x))\n# f(x) = 3x, g(x) = x/2 + 4; What is f(g(6))?\ndef compose(f, g, x):\n    return f(g(x))\n# Result: 21"
+  },
+  {
+    "concept_id": 11,
+    "form_id": 4,
+    "concept_name": "rel_function_composition",
+    "form_name": "math_notation",
+    "text": "(f ∘ g)(x) = f(g(x)). f(x) = 3x, g(x) = x/2 + 4; What is f(g(6))?. Result = 21."
+  },
+  {
+    "concept_id": 11,
+    "form_id": 5,
+    "concept_name": "rel_function_composition",
+    "form_name": "structured_list",
+    "text": "Task: Function composition\nFunction f: f(x) = 3x, g(x) = x/2 + 4\nFunction g: What is f(g(6))?\nStep 1: Compute g(x)\nStep 2: Apply f to result\nResult: 21"
+  },
+  {
+    "concept_id": 12,
+    "form_id": 0,
+    "concept_name": "causal_chain",
+    "form_name": "en_prose",
+    "text": "Smoking causes lung damage. Lung damage causes breathing difficulty. Does smoking cause breathing difficulty? By transitivity of causation, the indirect causal link holds: the first event causes the last through an intermediary."
+  },
+  {
+    "concept_id": 12,
+    "form_id": 1,
+    "concept_name": "causal_chain",
+    "form_name": "zh_prose",
+    "text": "吸烟导致肺损伤。肺损伤导致呼吸困难。由因果关系的传递性，吸烟间接导致呼吸困难。"
+  },
+  {
+    "concept_id": 12,
+    "form_id": 2,
+    "concept_name": "causal_chain",
+    "form_name": "fr_prose",
+    "text": "Le tabagisme cause des dommages pulmonaires. Les dommages pulmonaires causent des difficultés respiratoires. Par transitivité causale, le tabagisme cause des difficultés respiratoires."
+  },
+  {
+    "concept_id": 12,
+    "form_id": 3,
+    "concept_name": "causal_chain",
+    "form_name": "py_code",
+    "text": "# Causal chain: A -> B -> C\ndef causal_chain(a_occurs):\n    b_occurs = causes_b(a_occurs)  # A -> B\n    c_occurs = causes_c(b_occurs)  # B -> C\n    return c_occurs  # A indirectly causes C\nassert causal_chain(True) == True"
+  },
+  {
+    "concept_id": 12,
+    "form_id": 4,
+    "concept_name": "causal_chain",
+    "form_name": "math_notation",
+    "text": "Causal DAG: A → B → C. P(C | do(A=1)) = Σ_b P(C|B=b)P(B=b|do(A=1)) > P(C|do(A=0)). ∴ A causes C."
+  },
+  {
+    "concept_id": 12,
+    "form_id": 5,
+    "concept_name": "causal_chain",
+    "form_name": "structured_list",
+    "text": "Task: Causal chain reasoning\nCause 1: A → B (direct)\nCause 2: B → C (direct)\nRule: Transitivity of causation\nConclusion: A → C (indirect)\nAnswer: Yes, A causes C"
+  },
+  {
+    "concept_id": 12,
+    "form_id": 0,
+    "concept_name": "causal_chain",
+    "form_name": "en_prose",
+    "text": "Rain causes wet roads. Wet roads cause accidents. Does rain cause accidents? By transitivity of causation, the indirect causal link holds: the first event causes the last through an intermediary."
+  },
+  {
+    "concept_id": 12,
+    "form_id": 1,
+    "concept_name": "causal_chain",
+    "form_name": "zh_prose",
+    "text": "下雨导致路面湿滑。路面湿滑导致事故。由因果关系的传递性，下雨间接导致事故。"
+  },
+  {
+    "concept_id": 12,
+    "form_id": 2,
+    "concept_name": "causal_chain",
+    "form_name": "fr_prose",
+    "text": "La pluie cause des routes mouillées. Les routes mouillées causent des accidents. Par transitivité, la pluie cause des accidents."
+  },
+  {
+    "concept_id": 12,
+    "form_id": 3,
+    "concept_name": "causal_chain",
+    "form_name": "py_code",
+    "text": "# Causal chain: A -> B -> C\ndef causal_chain(a_occurs):\n    b_occurs = causes_b(a_occurs)  # A -> B\n    c_occurs = causes_c(b_occurs)  # B -> C\n    return c_occurs  # A indirectly causes C\nassert causal_chain(True) == True"
+  },
+  {
+    "concept_id": 12,
+    "form_id": 4,
+    "concept_name": "causal_chain",
+    "form_name": "math_notation",
+    "text": "Causal DAG: A → B → C. P(C | do(A=1)) = Σ_b P(C|B=b)P(B=b|do(A=1)) > P(C|do(A=0)). ∴ A causes C."
+  },
+  {
+    "concept_id": 12,
+    "form_id": 5,
+    "concept_name": "causal_chain",
+    "form_name": "structured_list",
+    "text": "Task: Causal chain reasoning\nCause 1: A → B (direct)\nCause 2: B → C (direct)\nRule: Transitivity of causation\nConclusion: A → C (indirect)\nAnswer: Yes, A causes C"
+  },
+  {
+    "concept_id": 12,
+    "form_id": 0,
+    "concept_name": "causal_chain",
+    "form_name": "en_prose",
+    "text": "Overeating causes weight gain. Weight gain causes health issues. Does overeating cause health issues? By transitivity of causation, the indirect causal link holds: the first event causes the last through an intermediary."
+  },
+  {
+    "concept_id": 12,
+    "form_id": 1,
+    "concept_name": "causal_chain",
+    "form_name": "zh_prose",
+    "text": "暴饮暴食导致体重增加。体重增加导致健康问题。由因果关系的传递性，暴饮暴食间接导致健康问题。"
+  },
+  {
+    "concept_id": 12,
+    "form_id": 2,
+    "concept_name": "causal_chain",
+    "form_name": "fr_prose",
+    "text": "La suralimentation cause une prise de poids. La prise de poids cause des problèmes de santé. Par transitivité, la suralimentation cause des problèmes de santé."
+  },
+  {
+    "concept_id": 12,
+    "form_id": 3,
+    "concept_name": "causal_chain",
+    "form_name": "py_code",
+    "text": "# Causal chain: A -> B -> C\ndef causal_chain(a_occurs):\n    b_occurs = causes_b(a_occurs)  # A -> B\n    c_occurs = causes_c(b_occurs)  # B -> C\n    return c_occurs  # A indirectly causes C\nassert causal_chain(True) == True"
+  },
+  {
+    "concept_id": 12,
+    "form_id": 4,
+    "concept_name": "causal_chain",
+    "form_name": "math_notation",
+    "text": "Causal DAG: A → B → C. P(C | do(A=1)) = Σ_b P(C|B=b)P(B=b|do(A=1)) > P(C|do(A=0)). ∴ A causes C."
+  },
+  {
+    "concept_id": 12,
+    "form_id": 5,
+    "concept_name": "causal_chain",
+    "form_name": "structured_list",
+    "text": "Task: Causal chain reasoning\nCause 1: A → B (direct)\nCause 2: B → C (direct)\nRule: Transitivity of causation\nConclusion: A → C (indirect)\nAnswer: Yes, A causes C"
+  },
+  {
+    "concept_id": 13,
+    "form_id": 0,
+    "concept_name": "causal_confound",
+    "form_name": "en_prose",
+    "text": "Ice cream sales and drownings both increase in summer. Does ice cream cause drowning? This is a confounding variable problem. Correlation does not imply causation when both variables share a common cause."
+  },
+  {
+    "concept_id": 13,
+    "form_id": 1,
+    "concept_name": "causal_confound",
+    "form_name": "zh_prose",
+    "text": "冰淇淋销量和溺水事件都在夏天增加。冰淇淋不会导致溺水。两者都是由共同原因（夏天/高温）引起的。相关不等于因果。"
+  },
+  {
+    "concept_id": 13,
+    "form_id": 2,
+    "concept_name": "causal_confound",
+    "form_name": "fr_prose",
+    "text": "Les ventes de glaces et les noyades augmentent en été. Les glaces ne causent pas les noyades. Les deux sont causés par la chaleur estivale."
+  },
+  {
+    "concept_id": 13,
+    "form_id": 3,
+    "concept_name": "causal_confound",
+    "form_name": "py_code",
+    "text": "# Confounding variable: A <- C -> B (C causes both)\n# Correlation(A, B) != 0 but A does not cause B\ndef is_causal(a, b, common_cause):\n    # Must control for confound\n    return False  # correlation is spurious"
+  },
+  {
+    "concept_id": 13,
+    "form_id": 4,
+    "concept_name": "causal_confound",
+    "form_name": "math_notation",
+    "text": "DAG: C → A, C → B. Observational: P(B|A) ≠ P(B). Interventional: P(B|do(A)) = P(B). ∴ A does not cause B."
+  },
+  {
+    "concept_id": 13,
+    "form_id": 5,
+    "concept_name": "causal_confound",
+    "form_name": "structured_list",
+    "text": "Task: Identify confounding\nObservation: A and B are correlated\nStructure: C → A, C → B (common cause)\nQuestion: Does A cause B?\nAnswer: No (spurious correlation due to confound C)"
+  },
+  {
+    "concept_id": 13,
+    "form_id": 0,
+    "concept_name": "causal_confound",
+    "form_name": "en_prose",
+    "text": "Shoe size and reading ability both increase with age. Does shoe size cause reading ability? This is a confounding variable problem. Correlation does not imply causation when both variables share a common cause."
+  },
+  {
+    "concept_id": 13,
+    "form_id": 1,
+    "concept_name": "causal_confound",
+    "form_name": "zh_prose",
+    "text": "鞋码和阅读能力都随年龄增长而增加。鞋码不会导致阅读能力提高。两者的共同原因是年龄增长。"
+  },
+  {
+    "concept_id": 13,
+    "form_id": 2,
+    "concept_name": "causal_confound",
+    "form_name": "fr_prose",
+    "text": "La pointure et la capacité de lecture augmentent avec l'âge. La pointure ne cause pas la lecture. La cause commune est l'âge."
+  },
+  {
+    "concept_id": 13,
+    "form_id": 3,
+    "concept_name": "causal_confound",
+    "form_name": "py_code",
+    "text": "# Confounding variable: A <- C -> B (C causes both)\n# Correlation(A, B) != 0 but A does not cause B\ndef is_causal(a, b, common_cause):\n    # Must control for confound\n    return False  # correlation is spurious"
+  },
+  {
+    "concept_id": 13,
+    "form_id": 4,
+    "concept_name": "causal_confound",
+    "form_name": "math_notation",
+    "text": "DAG: C → A, C → B. Observational: P(B|A) ≠ P(B). Interventional: P(B|do(A)) = P(B). ∴ A does not cause B."
+  },
+  {
+    "concept_id": 13,
+    "form_id": 5,
+    "concept_name": "causal_confound",
+    "form_name": "structured_list",
+    "text": "Task: Identify confounding\nObservation: A and B are correlated\nStructure: C → A, C → B (common cause)\nQuestion: Does A cause B?\nAnswer: No (spurious correlation due to confound C)"
+  },
+  {
+    "concept_id": 13,
+    "form_id": 0,
+    "concept_name": "causal_confound",
+    "form_name": "en_prose",
+    "text": "Cities with more hospitals have more crime. Do hospitals cause crime? This is a confounding variable problem. Correlation does not imply causation when both variables share a common cause."
+  },
+  {
+    "concept_id": 13,
+    "form_id": 1,
+    "concept_name": "causal_confound",
+    "form_name": "zh_prose",
+    "text": "医院多的城市犯罪也多。医院不会导致犯罪。两者的共同原因是城市人口规模。"
+  },
+  {
+    "concept_id": 13,
+    "form_id": 2,
+    "concept_name": "causal_confound",
+    "form_name": "fr_prose",
+    "text": "Les villes avec plus d'hôpitaux ont plus de criminalité. Les hôpitaux ne causent pas le crime. La cause commune est la taille de la population."
+  },
+  {
+    "concept_id": 13,
+    "form_id": 3,
+    "concept_name": "causal_confound",
+    "form_name": "py_code",
+    "text": "# Confounding variable: A <- C -> B (C causes both)\n# Correlation(A, B) != 0 but A does not cause B\ndef is_causal(a, b, common_cause):\n    # Must control for confound\n    return False  # correlation is spurious"
+  },
+  {
+    "concept_id": 13,
+    "form_id": 4,
+    "concept_name": "causal_confound",
+    "form_name": "math_notation",
+    "text": "DAG: C → A, C → B. Observational: P(B|A) ≠ P(B). Interventional: P(B|do(A)) = P(B). ∴ A does not cause B."
+  },
+  {
+    "concept_id": 13,
+    "form_id": 5,
+    "concept_name": "causal_confound",
+    "form_name": "structured_list",
+    "text": "Task: Identify confounding\nObservation: A and B are correlated\nStructure: C → A, C → B (common cause)\nQuestion: Does A cause B?\nAnswer: No (spurious correlation due to confound C)"
+  },
+  {
+    "concept_id": 14,
+    "form_id": 0,
+    "concept_name": "causal_intervention",
+    "form_name": "en_prose",
+    "text": "People who carry umbrellas are correlated with rain. If I carry an umbrella, will it rain? The key distinction is between observational correlation and interventional effect. The answer is No."
+  },
+  {
+    "concept_id": 14,
+    "form_id": 1,
+    "concept_name": "causal_intervention",
+    "form_name": "zh_prose",
+    "text": "带伞的人与下雨相关。但如果我主动带伞（干预），并不会导致下雨。观察相关性不等于因果效应。答案：No。"
+  },
+  {
+    "concept_id": 14,
+    "form_id": 2,
+    "concept_name": "causal_intervention",
+    "form_name": "fr_prose",
+    "text": "Porter un parapluie est corrélé à la pluie. Mais porter un parapluie (intervention) ne cause pas la pluie. Réponse : No."
+  },
+  {
+    "concept_id": 14,
+    "form_id": 3,
+    "concept_name": "causal_intervention",
+    "form_name": "py_code",
+    "text": "# Interventional reasoning: do-calculus\n# P(Y | do(X)) vs P(Y | X)\ndef intervention_effect(x_causes_y_directly):\n    # If X truly causes Y, intervention on X changes Y\n    # If correlation is spurious, intervention has no effect\n    return x_causes_y_directly\n# Answer: No"
+  },
+  {
+    "concept_id": 14,
+    "form_id": 4,
+    "concept_name": "causal_intervention",
+    "form_name": "math_notation",
+    "text": "Observation: P(Y|X) ≠ P(Y). Intervention: P(Y|do(X)) = P(Y). Answer: No."
+  },
+  {
+    "concept_id": 14,
+    "form_id": 5,
+    "concept_name": "causal_intervention",
+    "form_name": "structured_list",
+    "text": "Task: Interventional reasoning\nObservation: X and Y are correlated\nQuestion: Does do(X) change Y?\nCausal structure: X ← Z → Y (confounded)\nAnswer: No"
+  },
+  {
+    "concept_id": 14,
+    "form_id": 0,
+    "concept_name": "causal_intervention",
+    "form_name": "en_prose",
+    "text": "Students who study more get better grades. If we force a student to study, will grades improve? The key distinction is between observational correlation and interventional effect. The answer is Yes."
+  },
+  {
+    "concept_id": 14,
+    "form_id": 1,
+    "concept_name": "causal_intervention",
+    "form_name": "zh_prose",
+    "text": "学习更多的学生成绩更好。如果强制要求学生学习（干预），成绩会提高吗？是的，因为学习与成绩之间存在真实因果关系。答案：Yes。"
+  },
+  {
+    "concept_id": 14,
+    "form_id": 2,
+    "concept_name": "causal_intervention",
+    "form_name": "fr_prose",
+    "text": "Les étudiants qui étudient plus ont de meilleures notes. Forcer un étudiant à étudier améliorera ses notes. Réponse : Yes."
+  },
+  {
+    "concept_id": 14,
+    "form_id": 3,
+    "concept_name": "causal_intervention",
+    "form_name": "py_code",
+    "text": "# Interventional reasoning: do-calculus\n# P(Y | do(X)) vs P(Y | X)\ndef intervention_effect(x_causes_y_directly):\n    # If X truly causes Y, intervention on X changes Y\n    # If correlation is spurious, intervention has no effect\n    return x_causes_y_directly\n# Answer: Yes"
+  },
+  {
+    "concept_id": 14,
+    "form_id": 4,
+    "concept_name": "causal_intervention",
+    "form_name": "math_notation",
+    "text": "Observation: P(Y|X) ≠ P(Y). Intervention: P(Y|do(X)) ≠ P(Y). Answer: Yes."
+  },
+  {
+    "concept_id": 14,
+    "form_id": 5,
+    "concept_name": "causal_intervention",
+    "form_name": "structured_list",
+    "text": "Task: Interventional reasoning\nObservation: X and Y are correlated\nQuestion: Does do(X) change Y?\nCausal structure: X → Y (direct cause)\nAnswer: Yes"
+  },
+  {
+    "concept_id": 14,
+    "form_id": 0,
+    "concept_name": "causal_intervention",
+    "form_name": "en_prose",
+    "text": "Tall people earn more on average. If someone wears platform shoes, will they earn more? The key distinction is between observational correlation and interventional effect. The answer is No."
+  },
+  {
+    "concept_id": 14,
+    "form_id": 1,
+    "concept_name": "causal_intervention",
+    "form_name": "zh_prose",
+    "text": "高个子人平均收入更高。穿增高鞋（干预）会增加收入吗？不会，因为身高与收入的关联可能由其他因素中介。答案：No。"
+  },
+  {
+    "concept_id": 14,
+    "form_id": 2,
+    "concept_name": "causal_intervention",
+    "form_name": "fr_prose",
+    "text": "Les personnes grandes gagnent plus en moyenne. Porter des chaussures à plateforme n'augmentera pas le salaire. Réponse : No."
+  },
+  {
+    "concept_id": 14,
+    "form_id": 3,
+    "concept_name": "causal_intervention",
+    "form_name": "py_code",
+    "text": "# Interventional reasoning: do-calculus\n# P(Y | do(X)) vs P(Y | X)\ndef intervention_effect(x_causes_y_directly):\n    # If X truly causes Y, intervention on X changes Y\n    # If correlation is spurious, intervention has no effect\n    return x_causes_y_directly\n# Answer: No"
+  },
+  {
+    "concept_id": 14,
+    "form_id": 4,
+    "concept_name": "causal_intervention",
+    "form_name": "math_notation",
+    "text": "Observation: P(Y|X) ≠ P(Y). Intervention: P(Y|do(X)) = P(Y). Answer: No."
+  },
+  {
+    "concept_id": 14,
+    "form_id": 5,
+    "concept_name": "causal_intervention",
+    "form_name": "structured_list",
+    "text": "Task: Interventional reasoning\nObservation: X and Y are correlated\nQuestion: Does do(X) change Y?\nCausal structure: X ← Z → Y (confounded)\nAnswer: No"
+  },
+  {
+    "concept_id": 15,
+    "form_id": 0,
+    "concept_name": "spatial_direction",
+    "form_name": "en_prose",
+    "text": "A is north of B. B is east of C. What direction is A from C? Combining the two directional relations gives the compound direction: northeast."
+  },
+  {
+    "concept_id": 15,
+    "form_id": 1,
+    "concept_name": "spatial_direction",
+    "form_name": "zh_prose",
+    "text": "A 在 B 的北边。B 在 C 的东边。将两个方向关系组合，A 在 C 的northeast方。"
+  },
+  {
+    "concept_id": 15,
+    "form_id": 2,
+    "concept_name": "spatial_direction",
+    "form_name": "fr_prose",
+    "text": "En combinant les deux relations directionnelles, la direction composée est : northeast."
+  },
+  {
+    "concept_id": 15,
+    "form_id": 3,
+    "concept_name": "spatial_direction",
+    "form_name": "py_code",
+    "text": "# Spatial direction composition\ndirections = {'north': (0,1), 'south': (0,-1), 'east': (1,0), 'west': (-1,0)}\n# Compose two directions by vector addition\n# Result: northeast"
+  },
+  {
+    "concept_id": 15,
+    "form_id": 4,
+    "concept_name": "spatial_direction",
+    "form_name": "math_notation",
+    "text": "Let d₁, d₂ be unit direction vectors. Compound direction: d₁ + d₂ → northeast."
+  },
+  {
+    "concept_id": 15,
+    "form_id": 5,
+    "concept_name": "spatial_direction",
+    "form_name": "structured_list",
+    "text": "Task: Direction composition\nRelation 1: (given direction)\nRelation 2: (given direction)\nMethod: Vector addition of directions\nResult: northeast"
+  },
+  {
+    "concept_id": 15,
+    "form_id": 0,
+    "concept_name": "spatial_direction",
+    "form_name": "en_prose",
+    "text": "X is west of Y. Y is south of Z. What direction is X from Z? Combining the two directional relations gives the compound direction: southwest."
+  },
+  {
+    "concept_id": 15,
+    "form_id": 1,
+    "concept_name": "spatial_direction",
+    "form_name": "zh_prose",
+    "text": "X 在 Y 的西边。Y 在 Z 的南边。将两个方向关系组合，X 在 Z 的southwest方。"
+  },
+  {
+    "concept_id": 15,
+    "form_id": 2,
+    "concept_name": "spatial_direction",
+    "form_name": "fr_prose",
+    "text": "En combinant les deux relations directionnelles, la direction composée est : southwest."
+  },
+  {
+    "concept_id": 15,
+    "form_id": 3,
+    "concept_name": "spatial_direction",
+    "form_name": "py_code",
+    "text": "# Spatial direction composition\ndirections = {'north': (0,1), 'south': (0,-1), 'east': (1,0), 'west': (-1,0)}\n# Compose two directions by vector addition\n# Result: southwest"
+  },
+  {
+    "concept_id": 15,
+    "form_id": 4,
+    "concept_name": "spatial_direction",
+    "form_name": "math_notation",
+    "text": "Let d₁, d₂ be unit direction vectors. Compound direction: d₁ + d₂ → southwest."
+  },
+  {
+    "concept_id": 15,
+    "form_id": 5,
+    "concept_name": "spatial_direction",
+    "form_name": "structured_list",
+    "text": "Task: Direction composition\nRelation 1: (given direction)\nRelation 2: (given direction)\nMethod: Vector addition of directions\nResult: southwest"
+  },
+  {
+    "concept_id": 15,
+    "form_id": 0,
+    "concept_name": "spatial_direction",
+    "form_name": "en_prose",
+    "text": "P is east of Q. Q is north of R. What direction is P from R? Combining the two directional relations gives the compound direction: northeast."
+  },
+  {
+    "concept_id": 15,
+    "form_id": 1,
+    "concept_name": "spatial_direction",
+    "form_name": "zh_prose",
+    "text": "P 在 Q 的东边。Q 在 R 的北边。将两个方向关系组合，P 在 R 的northeast方。"
+  },
+  {
+    "concept_id": 15,
+    "form_id": 2,
+    "concept_name": "spatial_direction",
+    "form_name": "fr_prose",
+    "text": "En combinant les deux relations directionnelles, la direction composée est : northeast."
+  },
+  {
+    "concept_id": 15,
+    "form_id": 3,
+    "concept_name": "spatial_direction",
+    "form_name": "py_code",
+    "text": "# Spatial direction composition\ndirections = {'north': (0,1), 'south': (0,-1), 'east': (1,0), 'west': (-1,0)}\n# Compose two directions by vector addition\n# Result: northeast"
+  },
+  {
+    "concept_id": 15,
+    "form_id": 4,
+    "concept_name": "spatial_direction",
+    "form_name": "math_notation",
+    "text": "Let d₁, d₂ be unit direction vectors. Compound direction: d₁ + d₂ → northeast."
+  },
+  {
+    "concept_id": 15,
+    "form_id": 5,
+    "concept_name": "spatial_direction",
+    "form_name": "structured_list",
+    "text": "Task: Direction composition\nRelation 1: (given direction)\nRelation 2: (given direction)\nMethod: Vector addition of directions\nResult: northeast"
+  },
+  {
+    "concept_id": 16,
+    "form_id": 0,
+    "concept_name": "spatial_containment",
+    "form_name": "en_prose",
+    "text": "Box A is inside Box B. Box B is inside Box C. Is Box A inside Box C? By transitivity of containment, the answer is Yes."
+  },
+  {
+    "concept_id": 16,
+    "form_id": 1,
+    "concept_name": "spatial_containment",
+    "form_name": "zh_prose",
+    "text": "箱A在箱B内。箱B在箱C内。由包含关系的传递性，箱A在箱C内。答案：是。"
+  },
+  {
+    "concept_id": 16,
+    "form_id": 2,
+    "concept_name": "spatial_containment",
+    "form_name": "fr_prose",
+    "text": "Par transitivité de la relation de contenance, la réponse est Yes."
+  },
+  {
+    "concept_id": 16,
+    "form_id": 3,
+    "concept_name": "spatial_containment",
+    "form_name": "py_code",
+    "text": "# Spatial containment (transitivity)\ndef is_contained(a, b, containment_graph):\n    # Check if a is transitively contained in b\n    visited = set()\n    queue = [a]\n    while queue:\n        current = queue.pop(0)\n        if current == b:\n            return True\n        visited.add(current)\n        queue.extend(c for c in containment_graph.get(current, []) if c not in visited)\n    return False\n# Answer: Yes"
+  },
+  {
+    "concept_id": 16,
+    "form_id": 4,
+    "concept_name": "spatial_containment",
+    "form_name": "math_notation",
+    "text": "Containment: A ⊂ B, B ⊂ C. By transitivity of ⊂: A ⊂ C. Answer: Yes."
+  },
+  {
+    "concept_id": 16,
+    "form_id": 5,
+    "concept_name": "spatial_containment",
+    "form_name": "structured_list",
+    "text": "Task: Spatial containment\nRelation: ⊂ (is inside)\nGiven relations: (see problem)\nRule: Transitivity of containment\nAnswer: Yes"
+  },
+  {
+    "concept_id": 16,
+    "form_id": 0,
+    "concept_name": "spatial_containment",
+    "form_name": "en_prose",
+    "text": "Room X contains Room Y. Room Y contains Object Z. Is Object Z in Room X? By transitivity of containment, the answer is Yes."
+  },
+  {
+    "concept_id": 16,
+    "form_id": 1,
+    "concept_name": "spatial_containment",
+    "form_name": "zh_prose",
+    "text": "房间X包含房间Y。房间Y包含物体Z。由包含关系的传递性，物体Z在房间X内。答案：是。"
+  },
+  {
+    "concept_id": 16,
+    "form_id": 2,
+    "concept_name": "spatial_containment",
+    "form_name": "fr_prose",
+    "text": "Par transitivité de la relation de contenance, la réponse est Yes."
+  },
+  {
+    "concept_id": 16,
+    "form_id": 3,
+    "concept_name": "spatial_containment",
+    "form_name": "py_code",
+    "text": "# Spatial containment (transitivity)\ndef is_contained(a, b, containment_graph):\n    # Check if a is transitively contained in b\n    visited = set()\n    queue = [a]\n    while queue:\n        current = queue.pop(0)\n        if current == b:\n            return True\n        visited.add(current)\n        queue.extend(c for c in containment_graph.get(current, []) if c not in visited)\n    return False\n# Answer: Yes"
+  },
+  {
+    "concept_id": 16,
+    "form_id": 4,
+    "concept_name": "spatial_containment",
+    "form_name": "math_notation",
+    "text": "Containment: A ⊂ B, B ⊂ C. By transitivity of ⊂: A ⊂ C. Answer: Yes."
+  },
+  {
+    "concept_id": 16,
+    "form_id": 5,
+    "concept_name": "spatial_containment",
+    "form_name": "structured_list",
+    "text": "Task: Spatial containment\nRelation: ⊂ (is inside)\nGiven relations: (see problem)\nRule: Transitivity of containment\nAnswer: Yes"
+  },
+  {
+    "concept_id": 16,
+    "form_id": 0,
+    "concept_name": "spatial_containment",
+    "form_name": "en_prose",
+    "text": "Bag 1 is in Bag 2. Bag 2 is in Bag 3. Is Bag 3 in Bag 1? By transitivity of containment, the answer is No."
+  },
+  {
+    "concept_id": 16,
+    "form_id": 1,
+    "concept_name": "spatial_containment",
+    "form_name": "zh_prose",
+    "text": "袋1在袋2内。袋2在袋3内。袋3不在袋1内（包含关系不可逆）。答案：否。"
+  },
+  {
+    "concept_id": 16,
+    "form_id": 2,
+    "concept_name": "spatial_containment",
+    "form_name": "fr_prose",
+    "text": "Par transitivité de la relation de contenance, la réponse est No."
+  },
+  {
+    "concept_id": 16,
+    "form_id": 3,
+    "concept_name": "spatial_containment",
+    "form_name": "py_code",
+    "text": "# Spatial containment (transitivity)\ndef is_contained(a, b, containment_graph):\n    # Check if a is transitively contained in b\n    visited = set()\n    queue = [a]\n    while queue:\n        current = queue.pop(0)\n        if current == b:\n            return True\n        visited.add(current)\n        queue.extend(c for c in containment_graph.get(current, []) if c not in visited)\n    return False\n# Answer: No"
+  },
+  {
+    "concept_id": 16,
+    "form_id": 4,
+    "concept_name": "spatial_containment",
+    "form_name": "math_notation",
+    "text": "Containment: A ⊂ B, B ⊂ C. By transitivity of ⊂: A ⊂ C. Answer: No."
+  },
+  {
+    "concept_id": 16,
+    "form_id": 5,
+    "concept_name": "spatial_containment",
+    "form_name": "structured_list",
+    "text": "Task: Spatial containment\nRelation: ⊂ (is inside)\nGiven relations: (see problem)\nRule: Transitivity of containment\nAnswer: No"
+  },
+  {
+    "concept_id": 17,
+    "form_id": 0,
+    "concept_name": "spatial_rotation",
+    "form_name": "en_prose",
+    "text": "A square has vertices at N, E, S, W. After 90 degrees clockwise rotation, where is the vertex that was at N? After applying the rotation, the element moves to position: E."
+  },
+  {
+    "concept_id": 17,
+    "form_id": 1,
+    "concept_name": "spatial_rotation",
+    "form_name": "zh_prose",
+    "text": "一个正方形的顶点分别在北、东、南、西。顺时针旋转90度后，原来在北边的顶点移到了E。"
+  },
+  {
+    "concept_id": 17,
+    "form_id": 2,
+    "concept_name": "spatial_rotation",
+    "form_name": "fr_prose",
+    "text": "Après avoir appliqué la rotation, l'élément se déplace vers : E."
+  },
+  {
+    "concept_id": 17,
+    "form_id": 3,
+    "concept_name": "spatial_rotation",
+    "form_name": "py_code",
+    "text": "# Mental rotation\nimport math\ndef rotate_point(point, angle_degrees):\n    rad = math.radians(angle_degrees)\n    x, y = point\n    new_x = x * math.cos(rad) - y * math.sin(rad)\n    new_y = x * math.sin(rad) + y * math.cos(rad)\n    return (new_x, new_y)\n# Result position: E"
+  },
+  {
+    "concept_id": 17,
+    "form_id": 4,
+    "concept_name": "spatial_rotation",
+    "form_name": "math_notation",
+    "text": "Rotation matrix R(θ) = [[cos θ, -sin θ], [sin θ, cos θ]]. Apply R to position vector. Result: E."
+  },
+  {
+    "concept_id": 17,
+    "form_id": 5,
+    "concept_name": "spatial_rotation",
+    "form_name": "structured_list",
+    "text": "Task: Mental rotation\nObject: (given configuration)\nRotation: (given angle and direction)\nMethod: Apply rotation transformation\nResult: E"
+  },
+  {
+    "concept_id": 17,
+    "form_id": 0,
+    "concept_name": "spatial_rotation",
+    "form_name": "en_prose",
+    "text": "An arrow points north. After 180 degree rotation, which direction does it point? After applying the rotation, the element moves to position: south."
+  },
+  {
+    "concept_id": 17,
+    "form_id": 1,
+    "concept_name": "spatial_rotation",
+    "form_name": "zh_prose",
+    "text": "一支箭头朝北。旋转180度后，箭头朝south。"
+  },
+  {
+    "concept_id": 17,
+    "form_id": 2,
+    "concept_name": "spatial_rotation",
+    "form_name": "fr_prose",
+    "text": "Après avoir appliqué la rotation, l'élément se déplace vers : south."
+  },
+  {
+    "concept_id": 17,
+    "form_id": 3,
+    "concept_name": "spatial_rotation",
+    "form_name": "py_code",
+    "text": "# Mental rotation\nimport math\ndef rotate_point(point, angle_degrees):\n    rad = math.radians(angle_degrees)\n    x, y = point\n    new_x = x * math.cos(rad) - y * math.sin(rad)\n    new_y = x * math.sin(rad) + y * math.cos(rad)\n    return (new_x, new_y)\n# Result position: south"
+  },
+  {
+    "concept_id": 17,
+    "form_id": 4,
+    "concept_name": "spatial_rotation",
+    "form_name": "math_notation",
+    "text": "Rotation matrix R(θ) = [[cos θ, -sin θ], [sin θ, cos θ]]. Apply R to position vector. Result: south."
+  },
+  {
+    "concept_id": 17,
+    "form_id": 5,
+    "concept_name": "spatial_rotation",
+    "form_name": "structured_list",
+    "text": "Task: Mental rotation\nObject: (given configuration)\nRotation: (given angle and direction)\nMethod: Apply rotation transformation\nResult: south"
+  },
+  {
+    "concept_id": 17,
+    "form_id": 0,
+    "concept_name": "spatial_rotation",
+    "form_name": "en_prose",
+    "text": "A triangle has apex at top. After 90 degrees counterclockwise, where is the apex? After applying the rotation, the element moves to position: left."
+  },
+  {
+    "concept_id": 17,
+    "form_id": 1,
+    "concept_name": "spatial_rotation",
+    "form_name": "zh_prose",
+    "text": "一个三角形的顶点在顶部。逆时针旋转90度后，顶点在left边。"
+  },
+  {
+    "concept_id": 17,
+    "form_id": 2,
+    "concept_name": "spatial_rotation",
+    "form_name": "fr_prose",
+    "text": "Après avoir appliqué la rotation, l'élément se déplace vers : left."
+  },
+  {
+    "concept_id": 17,
+    "form_id": 3,
+    "concept_name": "spatial_rotation",
+    "form_name": "py_code",
+    "text": "# Mental rotation\nimport math\ndef rotate_point(point, angle_degrees):\n    rad = math.radians(angle_degrees)\n    x, y = point\n    new_x = x * math.cos(rad) - y * math.sin(rad)\n    new_y = x * math.sin(rad) + y * math.cos(rad)\n    return (new_x, new_y)\n# Result position: left"
+  },
+  {
+    "concept_id": 17,
+    "form_id": 4,
+    "concept_name": "spatial_rotation",
+    "form_name": "math_notation",
+    "text": "Rotation matrix R(θ) = [[cos θ, -sin θ], [sin θ, cos θ]]. Apply R to position vector. Result: left."
+  },
+  {
+    "concept_id": 17,
+    "form_id": 5,
+    "concept_name": "spatial_rotation",
+    "form_name": "structured_list",
+    "text": "Task: Mental rotation\nObject: (given configuration)\nRotation: (given angle and direction)\nMethod: Apply rotation transformation\nResult: left"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "n": 23,
+  "n_refusal_valid": 23,
+  "n_truth_valid": 21,
+  "haar_med": 0.27901785714285715,
+  "refusal_wu_med": 0.4269187577558845,
+  "truth_wu_med": 0.3620879610604291,
+  "refusal_L_med": 0.44300331563840556,
+  "truth_L_med": 0.19569871371577885,
+  "refusal_last_med": 1.5976698294415896,
+  "truth_last_med": 3.8415962407331716,
+  "nexttok_L_med": 2.709335241177097,
+  "rand_L_med": 0.25573927935581336,
+  "n_locus_refusal": 16,
+  "n_locus_truth": 19,
+  "n_last_readout_refusal": 17,
+  "n_last_readout_truth": 17,
+  "max_dir_L": 4.278071285458282,
+  "depth_sign_refusal": {
+    "n": 23,
+    "n_up": 19,
+    "p": 0.002599477767944336,
+    "median_ratio": 5.103566371004734
+  },
+  "depth_sign_truth": {
+    "n": 18,
+    "n_up": 16,
+    "p": 0.001312255859375,
+    "median_ratio": 7.6059643260200795
+  },
+  "n_auc_last": 20,
+  "min_auc_last": 0.5948,
+  "refusal_auc_last_min": 0.9212,
+  "truth_auc_last_min": 0.5948,
+  "weak_auc_last": [
+    {
+      "model": "deepseek-v2-lite-chat",
+      "direction": "truth",
+      "auc": 0.8988
+    },
+    {
+      "model": "gpt2-xl",
+      "direction": "truth",
+      "auc": 0.6828
+    },
+    {
+      "model": "qwen2.5-7b",
+      "direction": "truth",
+      "auc": 0.8692
+    },
+    {
+      "model": "r1-distill-qwen-7b",
+      "direction": "truth",
+      "auc": 0.5948
+    }
+  ]
+}

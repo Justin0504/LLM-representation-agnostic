@@ -1,0 +1,32 @@
+{
+  "model": "phi-4",
+  "D": 5120,
+  "V": 100352,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.1953125,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.348132306131855,
+    "energy_in_topk_readout_pct": 8.173709951080152,
+    "min_principal_angle_deg": 44.75607037295645
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.812394478528003,
+    "energy_in_topk_readout_pct": 0.39838741646851833,
+    "min_principal_angle_deg": 82.28961550697258
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.811388489203329,
+    "energy_pct": 0.38102061672372556
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.23562809240949673
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 3.8247278890473675,
+    "std": 0.6680330553439316,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

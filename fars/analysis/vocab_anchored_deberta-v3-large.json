@@ -1,0 +1,32 @@
+{
+  "model": "deberta-v3-large",
+  "D": 1024,
+  "V": 128100,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.9765625,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.341657766212369,
+    "energy_in_topk_readout_pct": 7.4701897657464045,
+    "min_principal_angle_deg": 53.18642546520886
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.738950925215418,
+    "energy_in_topk_readout_pct": 0.8093904081983435,
+    "min_principal_angle_deg": 79.98552331629595
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.657435615854602,
+    "energy_pct": 1.4330222577647493
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.8608015732516587
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 7.496871988250305,
+    "std": 0.9360631886668233,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

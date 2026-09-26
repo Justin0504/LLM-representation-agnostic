@@ -1,0 +1,32 @@
+{
+  "model": "phi-3.5-mini-instruct",
+  "D": 3072,
+  "V": 32064,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.3255208333333333,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.2345131444575355,
+    "energy_in_topk_readout_pct": 9.700819400620805,
+    "min_principal_angle_deg": 49.07660520018803
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.763986518426751,
+    "energy_in_topk_readout_pct": 0.5651443810373381,
+    "min_principal_angle_deg": 81.89263477009517
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.74833234499726,
+    "energy_pct": 0.7578681068046376
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.3212436382051948
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 8.011971017119478,
+    "std": 0.7154340298229257,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

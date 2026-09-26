@@ -1,0 +1,32 @@
+{
+  "model": "falcon-mamba-7b",
+  "block": 29,
+  "D": 4096,
+  "K": 10,
+  "haar_pct": 0.244140625,
+  "refusal_auc": 1.0,
+  "truth_auc": 1.0,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 29,
+  "refusal_auc_last": 0.9817,
+  "truth_auc_last": 0.9596,
+  "wu": {
+    "refusal": 0.40261408719163255,
+    "truth": 0.3562211872365685,
+    "FARS_pc1": 0.1275270814155112,
+    "refusal_last": 1.056061230859494,
+    "truth_last": 5.7661636323302154,
+    "NextTok_pc1": 0.16841292199715044,
+    "Random": 0.2472901674891859
+  },
+  "readout_L": {
+    "refusal": 2.1226446029716266,
+    "truth": 0.1095056947825717,
+    "FARS_pc1": 0.3910029593737423,
+    "refusal_last": 0.37717194285172706,
+    "truth_last": 0.2893726262677388,
+    "NextTok_pc1": 2.805496119354543,
+    "Random": 0.2423197405583877
+  }
+}

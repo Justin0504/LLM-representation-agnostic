@@ -1,0 +1,32 @@
+{
+  "model": "falcon-mamba-7b",
+  "D": 4096,
+  "V": 65024,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.244140625,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.7918374635669005,
+    "energy_in_topk_readout_pct": 0.5290314208560415,
+    "min_principal_angle_deg": 80.69618863672598
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.827351665171217,
+    "energy_in_topk_readout_pct": 0.28591222019084955,
+    "min_principal_angle_deg": 84.16136302355648
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.819209971091514,
+    "energy_pct": 0.30966603827105543
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.28583650511791503
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 0.5530461884469844,
+    "std": 0.06458877409080553,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

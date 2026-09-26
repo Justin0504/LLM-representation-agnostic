@@ -1,0 +1,32 @@
+{
+  "model": "falcon3-7b-instruct",
+  "D": 3072,
+  "V": 131072,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.3255208333333333,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.631587271981127,
+    "energy_in_topk_readout_pct": 1.9556069591345475,
+    "min_principal_angle_deg": 73.4074738778599
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.819644091393054,
+    "energy_in_topk_readout_pct": 0.31274484363647004,
+    "min_principal_angle_deg": 84.77347052685911
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.806600172586381,
+    "energy_pct": 0.38219537569316325
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.3127671097178389
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 3.178943597289842,
+    "std": 0.5732471238567232,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

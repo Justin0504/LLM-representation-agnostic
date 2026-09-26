@@ -1,0 +1,32 @@
+{
+  "model": "smollm3-3b",
+  "D": 2048,
+  "V": 128256,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.48828125,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 3.7679081542275505,
+    "energy_in_topk_readout_pct": 26.10564252283466,
+    "min_principal_angle_deg": 15.511361395217378
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.761893408490909,
+    "energy_in_topk_readout_pct": 0.6414853646982891,
+    "min_principal_angle_deg": 81.51634158239703
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.765770969568078,
+    "energy_pct": 0.6094968582701625
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.5116571531297136
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 26.48547430838958,
+    "std": 1.3527402609413814,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

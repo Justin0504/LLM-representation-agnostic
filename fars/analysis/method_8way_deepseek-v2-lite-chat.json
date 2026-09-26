@@ -1,0 +1,62 @@
+{
+  "model": "deepseek-v2-lite-chat",
+  "layer": 13,
+  "n_layers": 28,
+  "K": 10,
+  "D": 2048,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.756528159159139,
+    "energy_in_topk_readout_pct": 0.6176106874392749,
+    "min_principal_angle_deg": 81.95626978148563,
+    "frac_of_ceiling": 0.9575692584131422
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.787582006329568,
+    "energy_in_topk_readout_pct": 0.505302258612903,
+    "min_principal_angle_deg": 82.56255846621976,
+    "frac_of_ceiling": 0.9638209210567458
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.756548492724831,
+    "energy_in_topk_readout_pct": 0.6174442990024651,
+    "min_principal_angle_deg": 81.95658730044947,
+    "frac_of_ceiling": 0.9575733519025045
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.774053763401575,
+    "energy_in_topk_readout_pct": 0.49911362276522975,
+    "min_principal_angle_deg": 82.94024219835268,
+    "frac_of_ceiling": 0.9610974578258498
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.7368214324283215,
+    "energy_in_topk_readout_pct": 0.7129221166541749,
+    "min_principal_angle_deg": 81.8981934093505,
+    "frac_of_ceiling": 0.9536019622950603
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.667192353634693,
+    "energy_in_topk_readout_pct": 1.3025770726688721,
+    "min_principal_angle_deg": 76.97577978189419,
+    "frac_of_ceiling": 0.9395844555940821
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.74811175150633,
+    "energy_in_topk_readout_pct": 0.7205557946642784,
+    "min_principal_angle_deg": 80.20607587338175,
+    "frac_of_ceiling": 0.955874893749478
+  },
+  "Random": {
+    "d_G_vs_readout": 4.777834006302593,
+    "energy_in_topk_readout_pct": 0.5081438324741381,
+    "min_principal_angle_deg": 83.1169571928523,
+    "frac_of_ceiling": 0.9618584844129369
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.411845501544565,
+    "energy_in_topk_readout_pct": 5.712145842643127,
+    "min_principal_angle_deg": 58.5109444329266,
+    "frac_of_ceiling": 0.8881788320778535
+  }
+}

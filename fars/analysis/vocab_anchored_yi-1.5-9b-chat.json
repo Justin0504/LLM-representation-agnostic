@@ -1,0 +1,32 @@
+{
+  "model": "yi-1.5-9b-chat",
+  "D": 4096,
+  "V": 64000,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.244140625,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.497630134671108,
+    "energy_in_topk_readout_pct": 6.0312555691098595,
+    "min_principal_angle_deg": 47.19190515104047
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.807327841137253,
+    "energy_in_topk_readout_pct": 0.35181012895756597,
+    "min_principal_angle_deg": 83.94779396019624
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.816525144821006,
+    "energy_pct": 0.31125021422186055
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.2578736718587321
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 2.6067516419743235,
+    "std": 0.4222318384832794,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

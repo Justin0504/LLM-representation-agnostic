@@ -1,0 +1,62 @@
+{
+  "model": "granite-3.3-8b-instruct",
+  "layer": 12,
+  "n_layers": 40,
+  "K": 10,
+  "D": 4096,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.726687298885447,
+    "energy_in_topk_readout_pct": 1.1419803934868336,
+    "min_principal_angle_deg": 75.49621411916793,
+    "frac_of_ceiling": 0.9515617904687623
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.807654497420368,
+    "energy_in_topk_readout_pct": 0.3831623589139944,
+    "min_principal_angle_deg": 83.03638670458628,
+    "frac_of_ceiling": 0.967861851703043
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.726687303054022,
+    "energy_in_topk_readout_pct": 1.1419803767577965,
+    "min_principal_angle_deg": 75.4962141861155,
+    "frac_of_ceiling": 0.9515617913079666
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.8177659806461275,
+    "energy_in_topk_readout_pct": 0.31279594348622075,
+    "min_principal_angle_deg": 84.438157009036,
+    "frac_of_ceiling": 0.9698974636388837
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.667434871963058,
+    "energy_in_topk_readout_pct": 1.754996859760986,
+    "min_principal_angle_deg": 72.02796918818525,
+    "frac_of_ceiling": 0.9396332786196322
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.6848015880218075,
+    "energy_in_topk_readout_pct": 1.4397070293746854,
+    "min_principal_angle_deg": 73.31468279626007,
+    "frac_of_ceiling": 0.943129491163949
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.702897823080667,
+    "energy_in_topk_readout_pct": 1.1667330816671642,
+    "min_principal_angle_deg": 77.13245812834303,
+    "frac_of_ceiling": 0.9467725681742288
+  },
+  "Random": {
+    "d_G_vs_readout": 4.836771564363039,
+    "energy_in_topk_readout_pct": 0.23757410707596482,
+    "min_principal_angle_deg": 85.37168933460752,
+    "frac_of_ceiling": 0.9737236078551157
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.588937397557872,
+    "energy_in_topk_readout_pct": 2.4253875164066376,
+    "min_principal_angle_deg": 73.75980047505533,
+    "frac_of_ceiling": 0.9238304144636116
+  }
+}

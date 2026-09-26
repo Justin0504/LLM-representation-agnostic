@@ -1,0 +1,62 @@
+{
+  "model": "falcon3-7b-instruct",
+  "layer": 8,
+  "n_layers": 28,
+  "K": 10,
+  "D": 3072,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.819644091393054,
+    "energy_in_topk_readout_pct": 0.31274484363647004,
+    "min_principal_angle_deg": 84.77347052685911,
+    "frac_of_ceiling": 0.9702755589754349
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.808441350082363,
+    "energy_in_topk_readout_pct": 0.38770479237156075,
+    "min_principal_angle_deg": 83.62838058407701,
+    "frac_of_ceiling": 0.968020258401125
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.819644091676143,
+    "energy_in_topk_readout_pct": 0.3127448456786279,
+    "min_principal_angle_deg": 84.77347037871375,
+    "frac_of_ceiling": 0.9702755590324255
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.7986267191238365,
+    "energy_in_topk_readout_pct": 0.4226247615570505,
+    "min_principal_angle_deg": 82.9007924236667,
+    "frac_of_ceiling": 0.9660444078281692
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.8299041098335955,
+    "energy_in_topk_readout_pct": 0.280310596302709,
+    "min_principal_angle_deg": 84.41791480391363,
+    "frac_of_ceiling": 0.9723410735525947
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.832511994152198,
+    "energy_in_topk_readout_pct": 0.25755053778428727,
+    "min_principal_angle_deg": 85.15746857954065,
+    "frac_of_ceiling": 0.9728660846046544
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.808525846114705,
+    "energy_in_topk_readout_pct": 0.38069375024039703,
+    "min_principal_angle_deg": 83.45445292568054,
+    "frac_of_ceiling": 0.9680372688760599
+  },
+  "Random": {
+    "d_G_vs_readout": 4.818488805055088,
+    "energy_in_topk_readout_pct": 0.32033108691296835,
+    "min_principal_angle_deg": 84.26987937888536,
+    "frac_of_ceiling": 0.9700429803708551
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.5155941631693235,
+    "energy_in_topk_readout_pct": 3.4950238801392057,
+    "min_principal_angle_deg": 69.0716490975247,
+    "frac_of_ceiling": 0.9090651856637301
+  }
+}

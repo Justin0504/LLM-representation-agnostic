@@ -1,0 +1,32 @@
+{
+  "model": "gpt2-xl",
+  "block": 20,
+  "D": 1600,
+  "K": 10,
+  "haar_pct": 0.625,
+  "refusal_auc": 0.9985,
+  "truth_auc": 0.9988,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 20,
+  "refusal_auc_last": 0.9956,
+  "truth_auc_last": 0.6828,
+  "wu": {
+    "refusal": 3.9189824724545455,
+    "truth": 0.32931462143266255,
+    "FARS_pc1": 2.1449763300266,
+    "refusal_last": 7.855130391051148,
+    "truth_last": 1.4352234650820175,
+    "NextTok_pc1": 0.28520449954974336,
+    "Random": 0.6480466958355936
+  },
+  "readout_L": {
+    "refusal": 4.278071285458282,
+    "truth": 0.2846984227393257,
+    "FARS_pc1": 0.7422669230962023,
+    "refusal_last": 5.857912863379622,
+    "truth_last": 0.5673914040105386,
+    "NextTok_pc1": 0.30038079237607546,
+    "Random": 0.6399070961700896
+  }
+}

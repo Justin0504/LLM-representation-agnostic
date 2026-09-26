@@ -1,0 +1,62 @@
+{
+  "model": "phi-3.5-mini-instruct",
+  "layer": 18,
+  "n_layers": 33,
+  "K": 10,
+  "D": 3072,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.763986518426751,
+    "energy_in_topk_readout_pct": 0.5651443810373381,
+    "min_principal_angle_deg": 81.89263477009517,
+    "frac_of_ceiling": 0.9590707517952668
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.802526164912534,
+    "energy_in_topk_readout_pct": 0.3641199662486893,
+    "min_principal_angle_deg": 84.01829371289426,
+    "frac_of_ceiling": 0.9668294319649263
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.7639719693564215,
+    "energy_in_topk_readout_pct": 0.5651725010008674,
+    "min_principal_angle_deg": 81.89355138705265,
+    "frac_of_ceiling": 0.9590678228222805
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.816240270222284,
+    "energy_in_topk_readout_pct": 0.33211145357534033,
+    "min_principal_angle_deg": 84.17760778220051,
+    "frac_of_ceiling": 0.9695903124247571
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.727052481920331,
+    "energy_in_topk_readout_pct": 0.8835348342814316,
+    "min_principal_angle_deg": 80.61816350494746,
+    "frac_of_ceiling": 0.9516353079664408
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.682700842059225,
+    "energy_in_topk_readout_pct": 1.197815626358098,
+    "min_principal_angle_deg": 78.56725967467935,
+    "frac_of_ceiling": 0.942706575607435
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.75371872996096,
+    "energy_in_topk_readout_pct": 0.6449707791526228,
+    "min_principal_angle_deg": 82.52586537885287,
+    "frac_of_ceiling": 0.9570036729811116
+  },
+  "Random": {
+    "d_G_vs_readout": 4.827979433531561,
+    "energy_in_topk_readout_pct": 0.2966927867027618,
+    "min_principal_angle_deg": 84.19894670383381,
+    "frac_of_ceiling": 0.9719536037852443
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.40411776130264,
+    "energy_in_topk_readout_pct": 6.3493239779409265,
+    "min_principal_angle_deg": 56.665027798274615,
+    "frac_of_ceiling": 0.8866231077669566
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "model": "mistral-7b-instruct-v0.3",
+  "block": 9,
+  "D": 4096,
+  "K": 10,
+  "haar_pct": 0.244140625,
+  "refusal_auc": 0.9998,
+  "truth_auc": 0.9996,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 9,
+  "refusal_auc_last": 0.9996,
+  "truth_auc_last": 0.9824,
+  "wu": {
+    "refusal": 0.7704937768872316,
+    "truth": 0.1774591388221326,
+    "FARS_pc1": 0.5639638710911025,
+    "refusal_last": 0.7780912996410538,
+    "truth_last": 3.1575040263419405,
+    "NextTok_pc1": 46.334204980554425,
+    "Random": 0.2358867395779943
+  },
+  "readout_L": {
+    "refusal": 0.41630753699546513,
+    "truth": 0.1379740696201133,
+    "FARS_pc1": 0.29145600290013635,
+    "refusal_last": 0.1703286068609552,
+    "truth_last": 0.6133418288373602,
+    "NextTok_pc1": 0.014420040930092132,
+    "Random": 0.23574791491663352
+  }
+}

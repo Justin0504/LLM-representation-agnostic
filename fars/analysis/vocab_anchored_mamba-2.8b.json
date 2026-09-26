@@ -1,0 +1,32 @@
+{
+  "model": "mamba-2.8b",
+  "D": 2560,
+  "V": 50280,
+  "K": 10,
+  "ceiling": 4.967294132898051,
+  "haar_null_energy_pct": 0.390625,
+  "tokens_per_concept_median": 40,
+  "VocabAnchored": {
+    "d_G_vs_readout": 4.454753864286404,
+    "energy_in_topk_readout_pct": 6.078960984070643,
+    "min_principal_angle_deg": 51.97842672555736
+  },
+  "FARS": {
+    "d_G_vs_readout": 4.765562024278777,
+    "energy_in_topk_readout_pct": 0.6475443412632814,
+    "min_principal_angle_deg": 80.08719555042637
+  },
+  "vocab_vs_fars": {
+    "d_G": 4.738825603031667,
+    "energy_pct": 0.7499416651947455
+  },
+  "Random": {
+    "energy_in_topk_readout_pct": 0.4907161946414067
+  },
+  "VocabRandomTokens": {
+    "energy_in_topk_readout_pct": 5.142140067156529,
+    "std": 0.5846040487616347,
+    "n_draws": 20,
+    "tokens_per_class": 40
+  }
+}

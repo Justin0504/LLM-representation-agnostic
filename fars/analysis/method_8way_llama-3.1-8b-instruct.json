@@ -1,0 +1,62 @@
+{
+  "model": "llama-3.1-8b-instruct",
+  "layer": 8,
+  "n_layers": 32,
+  "K": 10,
+  "D": 4096,
+  "ceiling": 4.967294132898051,
+  "FARS": {
+    "d_G_vs_readout": 4.7889738178428845,
+    "energy_in_topk_readout_pct": 0.48983863639872693,
+    "min_principal_angle_deg": 81.5723682371252,
+    "frac_of_ceiling": 0.9641011161641984
+  },
+  "LDA": {
+    "d_G_vs_readout": 4.827795239722032,
+    "energy_in_topk_readout_pct": 0.31291770335361824,
+    "min_principal_angle_deg": 83.53369600518892,
+    "frac_of_ceiling": 0.9719165224680119
+  },
+  "DiffMeans": {
+    "d_G_vs_readout": 4.7889738236046995,
+    "energy_in_topk_readout_pct": 0.48983860659575523,
+    "min_principal_angle_deg": 81.57236746913652,
+    "frac_of_ceiling": 0.9641011173241488
+  },
+  "ProbeW": {
+    "d_G_vs_readout": 4.83292720748931,
+    "energy_in_topk_readout_pct": 0.27746889074931863,
+    "min_principal_angle_deg": 84.49875438479064,
+    "frac_of_ceiling": 0.9729496740451028
+  },
+  "FullPCA": {
+    "d_G_vs_readout": 4.80100482464609,
+    "energy_in_topk_readout_pct": 0.3867121399803089,
+    "min_principal_angle_deg": 83.43316807506109,
+    "frac_of_ceiling": 0.9665231605371145
+  },
+  "FormPCA": {
+    "d_G_vs_readout": 4.810185053535744,
+    "energy_in_topk_readout_pct": 0.3235305560811972,
+    "min_principal_angle_deg": 84.93920097475898,
+    "frac_of_ceiling": 0.9683712952849353
+  },
+  "ShuffFARS": {
+    "d_G_vs_readout": 4.810616032827289,
+    "energy_in_topk_readout_pct": 0.35882633386851254,
+    "min_principal_angle_deg": 83.72815510726471,
+    "frac_of_ceiling": 0.9684580586776423
+  },
+  "Random": {
+    "d_G_vs_readout": 4.836582329659173,
+    "energy_in_topk_readout_pct": 0.23610470498774666,
+    "min_principal_angle_deg": 84.80572824674212,
+    "frac_of_ceiling": 0.9736855117209222
+  },
+  "LastPCA": {
+    "d_G_vs_readout": 4.460082894668417,
+    "energy_in_topk_readout_pct": 4.508324423735273,
+    "min_principal_angle_deg": 67.23265305694035,
+    "frac_of_ceiling": 0.897889832037445
+  }
+}

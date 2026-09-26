@@ -1,0 +1,30 @@
+{
+  "model": "gpt-oss-20b",
+  "block": 7,
+  "D": 2880,
+  "K": 10,
+  "haar_pct": 0.3472222222222222,
+  "refusal_auc": 0.996,
+  "truth_auc": 1.0,
+  "block_mismatch": false,
+  "has_depth_matched": true,
+  "dm_block": 7,
+  "wu": {
+    "refusal": 0.29398495532753616,
+    "truth": 0.2428521509470699,
+    "FARS_pc1": 0.3278796261176998,
+    "refusal_last": 4.050229908229303,
+    "truth_last": 3.8415962407331716,
+    "NextTok_pc1": 0.3056096845846151,
+    "Random": 0.3444322944625182
+  },
+  "readout_L": {
+    "refusal": 0.5124945085815158,
+    "truth": 0.15154355505441114,
+    "FARS_pc1": 0.39842412887508943,
+    "refusal_last": 0.25880433146261733,
+    "truth_last": 0.3596874113205547,
+    "NextTok_pc1": 2.6131743629996507,
+    "Random": 0.3500527697112223
+  }
+}
