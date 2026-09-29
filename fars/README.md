@@ -1,4 +1,10 @@
-# FARS research snapshot — 2026-09-26
+# FARS: research code and reproduction guide
+
+[Project overview](../README.md) · [Known limitations](KNOWN_LIMITATIONS.md)
+
+**Code snapshot:** September 26, 2026. **Documentation update:** September 29, 2026.
+
+The latest norm-matched GSM8K and checkpoint-matched frozen-basis audits are not included in this snapshot. Do not interpret the current project overview figure as evidence that every revised manuscript experiment is packaged here.
 
 Code and recorded outputs for the FARS preprint. This is a curated snapshot of the local supplementary material, with the fourth cross-concept patching result added. Recorded results have not been independently rerun for this release.
 

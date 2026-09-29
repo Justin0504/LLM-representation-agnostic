@@ -11,7 +11,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "7eff89e60026c615f0ab3e43a0866073ea61e07c13a23ab11570ddafb92d462e"
+      "sha256": "1230f30408961aa85ba1f29f58cc76f875c59f7b3eebf4bb7dac83dc43f3f8bd"
     },
     {
       "path": "analysis/build_fars_basis.py",
@@ -837,5 +837,6 @@
       "path": "test_readout_geometry.py",
       "sha256": "dd96429fcbd316dff3b2e3b9f437ec93c4d3cd0b7ca3067a9d4023214aa0bf8e"
     }
-  ]
+  ],
+  "documentation_update": "2026-09-29: README refreshed; experimental code and result files unchanged"
 }
